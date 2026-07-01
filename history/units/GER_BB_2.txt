@@ -1,0 +1,12 @@
+﻿###OOB File for GER.txt
+units = {
+	fleet = {
+		name = "SMS Friedrich I"
+		naval_base = 6389 ###Change to proper province number
+		task_force = {
+			name = "SMS Friedrich I"
+			location = 6389 ###Change to proper province number
+			ship = { name = "SMS Friedrich I" definition = battleship equipment = { vnr_ship_hull_heavy_3 = { amount = 1 owner = GER version_name = "Blücher Class" } } }
+		}
+	}
+}

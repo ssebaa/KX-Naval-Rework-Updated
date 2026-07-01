@@ -1,0 +1,89 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_naval_lore_ger"
+		texturefile = "gfx/event_pictures/Navy/ger_ship.png"
+	}
+	spriteType = {
+		name = "GFX_naval_lore_jap"
+		texturefile = "gfx/event_pictures/Navy/jap_ship.png"
+	}
+	spriteType = {
+		name = "GFX_naval_lore_eng"
+		texturefile = "gfx/event_pictures/Navy/eng_ship.png"
+	}
+	spriteType = {
+		name = "GFX_naval_lore_usa"
+		texturefile = "gfx/event_pictures/Navy/usa_ship.png"
+	}
+	spriteType = {
+		name = "GFX_naval_lore_fra"
+		texturefile = "gfx/event_pictures/Navy/fra_ship.png"
+	}
+	spriteType = {
+		name = "GFX_naval_lore_rus"
+		texturefile = "gfx/event_pictures/Navy/rus_ship.png"
+	}
+	spriteType = {
+		name = "GFX_naval_lore_aus"
+		texturefile = "gfx/event_pictures/Navy/aus_ship.png"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_picture_naval_treaties"
+		texturefile = "gfx/event_pictures/Navy/decision_cat_naval_treaty.png"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_alicorn"
+		texturefile = "gfx/event_pictures/VNR/alicorn.png"
+	}
+	spriteType = {
+		name = "GFX_report_event_constitution"
+		texturefile = "gfx/event_pictures/VNR/constitution.png"
+	}
+	spriteType = {
+		name = "GFX_report_event_omaha"
+		texturefile = "gfx/event_pictures/VNR/omaha.png"
+	}
+	spriteType = {
+		name = "GFX_report_event_ironsides"
+		texturefile = "gfx/event_pictures/VNR/ironsides.png"
+	}
+	spriteType = {
+		name = "GFX_report_event_macross"
+		texturefile = "gfx/event_pictures/VNR/macross.png"
+	}
+	spriteType = {
+		name = "GFX_report_event_yamato"
+		texturefile = "gfx/event_pictures/VNR/yamato.png"
+	}
+	
+	spriteType = {
+		name = "GFX_vnr_aus_flag"
+		texturefile = "gfx/event_pictures/flag_icons/aus_flag.png"
+	}
+	spriteType = {
+		name = "GFX_vnr_eng_flag"
+		texturefile = "gfx/event_pictures/flag_icons/eng_flag.png"
+	}
+	spriteType = {
+		name = "GFX_vnr_usa_flag"
+		texturefile = "gfx/event_pictures/flag_icons/usa_flag.png"
+	}
+	spriteType = {
+		name = "GFX_vnr_jap_flag"
+		texturefile = "gfx/event_pictures/flag_icons/jap_flag.png"
+	}
+	spriteType = {
+		name = "GFX_vnr_fra_flag"
+		texturefile = "gfx/event_pictures/flag_icons/fra_flag.png"
+	}
+	spriteType = {
+		name = "GFX_vnr_ger_flag"
+		texturefile = "gfx/event_pictures/flag_icons/ger_flag.png"
+	}
+	spriteType = {
+		name = "GFX_vnr_rus_flag"
+		texturefile = "gfx/event_pictures/flag_icons/rus_flag.png"
+	}
+}

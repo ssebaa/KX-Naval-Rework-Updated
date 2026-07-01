@@ -1,0 +1,28 @@
+RUS_dominance_fleet_1 = {
+	required_taskforces = {
+		RUS_StrikeForce_1 = 1
+		RUS_PatrolDominanceForce_1 = 2
+		RUS_PatrolReconForce_1 = 5
+	}	
+	optional_taskforces = {
+		RUS_PatrolReconForce_1 = 1	
+	}
+}
+
+RUS_raiding_fleet_2 = {
+	required_taskforces = {
+		RUS_ConvoyRaiding_1 = 6
+	}	
+	optional_taskforces = {
+		RUS_ConvoyRaiding_1 = 2
+	}
+}
+
+RUS_escort_fleet_3 = {
+	required_taskforces = {
+		RUS_ConvoyEscort_1 = 1
+	}
+	optional_taskforces = {
+		RUS_ConvoyEscort_1 = 1
+	}
+}

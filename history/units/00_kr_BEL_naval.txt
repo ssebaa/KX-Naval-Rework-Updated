@@ -1,0 +1,19 @@
+﻿###OOB File for BEL.txt
+
+units = {
+	fleet = {
+		name = "Marinecomponent van Defensie"
+		naval_base = 13659
+		task_force = {
+			name = "Marinecomponent van Defensie"
+			location = 13659
+			ship = { name = "BNS Scaldis" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = BEL version_name = "Gent Class" } } }
+			ship = { name = "BNS Ysara" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = BEL version_name = "Gent Class" } } }
+			ship = { name = "BNS Mosa" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = BEL version_name = "Gent Class" } } }
+			ship = { name = "BNS Urta" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = BEL version_name = "Gent Class" } } }
+			ship = { name = "BNS Legia" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = BEL version_name = "Gent Class" } } }
+			ship = { name = "BNS Sabis" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = BEL version_name = "Gent Class" } } }
+			ship = { name = "BNS Antverpia" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = BEL version_name = "Victoria Louise Class" } } }
+		}
+	}
+}

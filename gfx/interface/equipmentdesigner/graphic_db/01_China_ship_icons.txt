@@ -1,0 +1,1524 @@
+CHI = {
+
+    vnr_ship_hull_light_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_light_1_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/China/QIE_destroyer_Zhongshan.png"
+            }
+        }
+
+    }
+
+    vnr_ship_hull_light_6 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_light_6_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/China/QIE_destroyer_Zhongshan.png"
+                GFX_QIE_vnr_ship_hull_light_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_1_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_6 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_6_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_1_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+                GFX_QIE_vnr_ship_hull_cruiser_2_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_coastal_defense_ship = {
+        pool = {
+            weight = 5
+            icons = {
+
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/China/QIE_light_cruiser_Zhaohe.png"
+				GFX_QIE_vnr_ship_hull_cruiser_1_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+            }
+        }
+
+    }
+
+}
+
+
+XSM = {
+
+    vnr_ship_hull_light_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_light_1_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/China/QIE_destroyer_Zhongshan.png"
+            }
+        }
+
+    }
+
+    vnr_ship_hull_light_6 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_light_6_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/China/QIE_destroyer_Zhongshan.png"
+                GFX_QIE_vnr_ship_hull_light_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_1_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_6 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_6_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_1_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+                GFX_QIE_vnr_ship_hull_cruiser_2_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_coastal_defense_ship = {
+        pool = {
+            weight = 5
+            icons = {
+
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/China/QIE_light_cruiser_Zhaohe.png"
+				GFX_QIE_vnr_ship_hull_cruiser_1_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+            }
+        }
+
+    }
+
+}
+
+
+SHX = {
+
+    vnr_ship_hull_light_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_light_1_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/China/QIE_destroyer_Zhongshan.png"
+            }
+        }
+
+    }
+
+    vnr_ship_hull_light_6 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_light_6_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/China/QIE_destroyer_Zhongshan.png"
+                GFX_QIE_vnr_ship_hull_light_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_1_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_6 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_6_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_1_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+                GFX_QIE_vnr_ship_hull_cruiser_2_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_coastal_defense_ship = {
+        pool = {
+            weight = 5
+            icons = {
+
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/China/QIE_light_cruiser_Zhaohe.png"
+				GFX_QIE_vnr_ship_hull_cruiser_1_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+            }
+        }
+
+    }
+
+}
+
+
+GXC = {
+
+    vnr_ship_hull_light_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_light_1_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/China/QIE_destroyer_Zhongshan.png"
+            }
+        }
+
+    }
+
+    vnr_ship_hull_light_6 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_light_6_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/China/QIE_destroyer_Zhongshan.png"
+                GFX_QIE_vnr_ship_hull_light_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_1_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_6 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_6_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_1_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+                GFX_QIE_vnr_ship_hull_cruiser_2_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_coastal_defense_ship = {
+        pool = {
+            weight = 5
+            icons = {
+
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/China/QIE_light_cruiser_Zhaohe.png"
+				GFX_QIE_vnr_ship_hull_cruiser_1_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+            }
+        }
+
+    }
+
+}
+
+
+SIK = {
+
+    vnr_ship_hull_light_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_light_1_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/China/QIE_destroyer_Zhongshan.png"
+            }
+        }
+
+    }
+
+    vnr_ship_hull_light_6 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_light_6_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/China/QIE_destroyer_Zhongshan.png"
+                GFX_QIE_vnr_ship_hull_light_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_1_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_6 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_6_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_1_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+                GFX_QIE_vnr_ship_hull_cruiser_2_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_coastal_defense_ship = {
+        pool = {
+            weight = 5
+            icons = {
+
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/China/QIE_light_cruiser_Zhaohe.png"
+				GFX_QIE_vnr_ship_hull_cruiser_1_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+            }
+        }
+
+    }
+
+}
+ANQ = {
+
+    vnr_ship_hull_light_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_light_1_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/China/QIE_destroyer_Zhongshan.png"
+            }
+        }
+
+    }
+
+    vnr_ship_hull_light_6 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_light_6_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/China/QIE_destroyer_Zhongshan.png"
+                GFX_QIE_vnr_ship_hull_light_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_1_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_6 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_6_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_1_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+                GFX_QIE_vnr_ship_hull_cruiser_2_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_coastal_defense_ship = {
+        pool = {
+            weight = 5
+            icons = {
+
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/China/QIE_light_cruiser_Zhaohe.png"
+				GFX_QIE_vnr_ship_hull_cruiser_1_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+            }
+        }
+
+    }
+
+}
+
+
+SQI = {
+
+    vnr_ship_hull_light_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_light_1_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/China/QIE_destroyer_Zhongshan.png"
+            }
+        }
+
+    }
+
+    vnr_ship_hull_light_6 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_light_6_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/China/QIE_destroyer_Zhongshan.png"
+                GFX_QIE_vnr_ship_hull_light_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_1_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_6 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_6_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_1_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+                GFX_QIE_vnr_ship_hull_cruiser_2_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_coastal_defense_ship = {
+        pool = {
+            weight = 5
+            icons = {
+
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/China/QIE_light_cruiser_Zhaohe.png"
+				GFX_QIE_vnr_ship_hull_cruiser_1_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+            }
+        }
+
+    }
+
+}
+
+SHD = {
+
+    vnr_ship_hull_light_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_light_1_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/China/QIE_destroyer_Zhongshan.png"
+            }
+        }
+
+    }
+
+    vnr_ship_hull_light_6 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_light_6_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/China/QIE_destroyer_Zhongshan.png"
+                GFX_QIE_vnr_ship_hull_light_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_1_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_6 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_6_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_1_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+                GFX_QIE_vnr_ship_hull_cruiser_2_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_coastal_defense_ship = {
+        pool = {
+            weight = 5
+            icons = {
+
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/China/QIE_light_cruiser_Zhaohe.png"
+				GFX_QIE_vnr_ship_hull_cruiser_1_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+            }
+        }
+
+    }
+
+}
+
+QIE = {
+
+    vnr_ship_hull_light_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_light_1_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/China/QIE_destroyer_Zhongshan.png"
+            }
+        }
+
+    }
+
+    vnr_ship_hull_light_6 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_light_6_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/China/QIE_destroyer_Zhongshan.png"
+                GFX_QIE_vnr_ship_hull_light_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_1_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_6 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_6_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_1_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+                GFX_QIE_vnr_ship_hull_cruiser_2_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_coastal_defense_ship = {
+        pool = {
+            weight = 5
+            icons = {
+
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/China/QIE_light_cruiser_Zhaohe.png"
+				GFX_QIE_vnr_ship_hull_cruiser_1_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+            }
+        }
+
+    }
+
+}
+
+
+LEP = {
+
+    vnr_ship_hull_light_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_light_1_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/China/QIE_destroyer_Zhongshan.png"
+            }
+        }
+
+    }
+
+    vnr_ship_hull_light_6 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_light_6_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/China/QIE_destroyer_Zhongshan.png"
+                GFX_QIE_vnr_ship_hull_light_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_1_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_6 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_6_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_1_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+                GFX_QIE_vnr_ship_hull_cruiser_2_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_coastal_defense_ship = {
+        pool = {
+            weight = 5
+            icons = {
+
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/China/QIE_light_cruiser_Zhaohe.png"
+				GFX_QIE_vnr_ship_hull_cruiser_1_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+            }
+        }
+
+    }
+
+}
+
+
+HNN = {
+
+    vnr_ship_hull_light_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_light_1_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/China/QIE_destroyer_Zhongshan.png"
+            }
+        }
+
+    }
+
+    vnr_ship_hull_light_6 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_light_6_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/China/QIE_destroyer_Zhongshan.png"
+                GFX_QIE_vnr_ship_hull_light_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_1_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_6 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_6_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_1_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+                GFX_QIE_vnr_ship_hull_cruiser_2_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_coastal_defense_ship = {
+        pool = {
+            weight = 5
+            icons = {
+
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/China/QIE_light_cruiser_Zhaohe.png"
+				GFX_QIE_vnr_ship_hull_cruiser_1_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+            }
+        }
+
+    }
+
+}
+
+
+EST = {
+
+    vnr_ship_hull_light_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_light_1_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/China/QIE_destroyer_Zhongshan.png"
+            }
+        }
+
+    }
+
+    vnr_ship_hull_light_6 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_light_6_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/China/QIE_destroyer_Zhongshan.png"
+                GFX_QIE_vnr_ship_hull_light_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_1_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_6 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_6_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_1_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+                GFX_QIE_vnr_ship_hull_cruiser_2_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_coastal_defense_ship = {
+        pool = {
+            weight = 5
+            icons = {
+
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/China/QIE_light_cruiser_Zhaohe.png"
+				GFX_QIE_vnr_ship_hull_cruiser_1_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+            }
+        }
+
+    }
+
+}
+
+
+KUM = {
+
+    vnr_ship_hull_light_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_light_1_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/China/QIE_destroyer_Zhongshan.png"
+            }
+        }
+
+    }
+
+    vnr_ship_hull_light_6 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_light_6_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/China/QIE_destroyer_Zhongshan.png"
+                GFX_QIE_vnr_ship_hull_light_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_1_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_6 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_6_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_1_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+                GFX_QIE_vnr_ship_hull_cruiser_2_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_coastal_defense_ship = {
+        pool = {
+            weight = 5
+            icons = {
+
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/China/QIE_light_cruiser_Zhaohe.png"
+				GFX_QIE_vnr_ship_hull_cruiser_1_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+            }
+        }
+
+    }
+
+}
+
+
+SZC = {
+
+    vnr_ship_hull_light_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_light_1_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/China/QIE_destroyer_Zhongshan.png"
+            }
+        }
+
+    }
+
+    vnr_ship_hull_light_6 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_light_6_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/China/QIE_destroyer_Zhongshan.png"
+                GFX_QIE_vnr_ship_hull_light_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_1_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_6 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_6_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_1_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+                GFX_QIE_vnr_ship_hull_cruiser_2_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_coastal_defense_ship = {
+        pool = {
+            weight = 5
+            icons = {
+
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/China/QIE_light_cruiser_Zhaohe.png"
+				GFX_QIE_vnr_ship_hull_cruiser_1_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+            }
+        }
+
+    }
+
+}
+
+
+FNG = {
+
+    vnr_ship_hull_light_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_light_1_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/China/QIE_destroyer_Zhongshan.png"
+            }
+        }
+
+    }
+
+    vnr_ship_hull_light_6 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_light_6_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/China/QIE_destroyer_Zhongshan.png"
+                GFX_QIE_vnr_ship_hull_light_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_1 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_2 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_2_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_1_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_6 = {
+        pool = {
+            weight = 5
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_6_medium
+            }
+        }
+
+        pool = {
+            icons = {
+                GFX_QIE_vnr_ship_hull_cruiser_1_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+                GFX_QIE_vnr_ship_hull_cruiser_2_medium
+            }
+        }
+
+    }
+
+    vnr_ship_hull_cruiser_coastal_defense_ship = {
+        pool = {
+            weight = 5
+            icons = {
+
+            }
+        }
+
+        pool = {
+            icons = {
+                "gfx/interface/technologies/China/QIE_light_cruiser_Zhaohe.png"
+				GFX_QIE_vnr_ship_hull_cruiser_1_medium
+				GFX_QIE_vnr_ship_hull_cruiser_1_capital_medium
+            }
+        }
+
+    }
+
+}

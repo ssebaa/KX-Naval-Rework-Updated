@@ -1,0 +1,16 @@
+﻿###OOB File for GER.txt
+units = {
+	fleet = {
+		name = "Submarine 1"
+		naval_base = 6389 ###Change to proper province number
+		task_force = {
+			name = "Submarine 1"
+			location = 6389 ###Change to proper province number
+			ship = { name = "SM U-100" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type VII Class" } } }
+			ship = { name = "SM U-104" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type VII Class" } } }
+			ship = { name = "SM U-107" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type VII Class" } } }
+			ship = { name = "SM U-108" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type VII Class" } } }
+			ship = { name = "SM U-111" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = GER version_name = "Type VII Class" } } }
+		}
+	}
+}

@@ -1,0 +1,15 @@
+﻿###OOB File for GER.txt
+units = {
+	fleet = {
+		name = "Destroyer 3"
+		naval_base = 6389 ###Change to proper province number
+		task_force = {
+			name = "Destroyer 3"
+			location = 6389 ###Change to proper province number
+			ship = { name = "SMS Z92" definition = destroyer equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = GER version_name = "H279 Class" } } }
+			ship = { name = "SMS Z94" definition = destroyer equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = GER version_name = "H279 Class" } } }
+			ship = { name = "SMS Z95" definition = destroyer equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = GER version_name = "H279 Class" } } }
+			ship = { name = "SMS Z96" definition = destroyer equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = GER version_name = "H279 Class" } } }
+		}
+	}
+}

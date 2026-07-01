@@ -1,0 +1,6 @@
+﻿air_wings = {
+	"HMCS Furious" = {
+		cv_small_plane_airframe_0 = { owner = "IMP" amount = 10 version_name = "Gloster Sea Gladiator" }
+		cv_small_plane_naval_bomber_airframe_0 = { owner = "IMP" amount = 10 version_name = "Fairey Swordfish" }
+	}
+}
