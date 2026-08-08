@@ -381,9 +381,7 @@ country_event = {
 					advanced_ship_torpedo_launcher = 1 
 					improved_ship_hull_carrier = 1
 					improved_cruiser_armor = 1 
-					advanced_torpedo_defense = 1
 					improved_heavy_armor = 1
-					all_or_nothing_armor_scheme = 1
 					sonar = 1
 					improved_sonar = 1
 					improved_depth_charges = 1
@@ -401,8 +399,6 @@ country_event = {
 					magnetic_detonator = 1
 					oxygen_torpedo = 1
 
-					damage_control_1 = 1
-					fire_control_methods_1 = 1
 					basic_ballast_tank = 1
 					improved_ballast_tank = 1
 					dive_bomber_study = 1
@@ -481,8 +477,6 @@ country_event = {
 					advanced_light_battery = 1
 					advanced_heavy_armor = 1
 					advanced_cruiser_armor = 1
-					advanced_torpedo_defense = 1
-					all_or_nothing_armor_box_armor_scheme = 1
 					advanced_sonar = 1
 					advanced_depth_charges = 1
 					modern_depth_charges = 1
@@ -495,7 +489,6 @@ country_event = {
 					modern_ship_torpedo_launcher = 1
 					proximity_detonator = 1
 					
-					fire_control_methods_3 = 1
 				}
 				ai_get_navy_experience = yes
 				ai_get_mio_upgrade = yes
@@ -715,6 +708,7 @@ country_event = {
 		date > 1936.1.1
 		NOT = { has_global_flag = cv_air_tech_1936 }
 		expert_ai_plane = yes
+		has_game_rule = { rule = allow_ai_tech_auto_unlock option = FREE }
 	}
 	immediate = {
 		for_each_scope_loop = {
@@ -742,6 +736,7 @@ country_event = {
 		date > 1939.1.1
 		NOT = { has_global_flag = cv_air_tech_1939 }
 		expert_ai_plane = yes
+		has_game_rule = { rule = allow_ai_tech_auto_unlock option = FREE }
 	}
 	immediate = {
 		for_each_scope_loop = {
@@ -771,6 +766,7 @@ country_event = {
 		date > 1944.1.1
 		NOT = { has_global_flag = cv_air_tech_1944 }
 		expert_ai_plane = yes
+		has_game_rule = { rule = allow_ai_tech_auto_unlock option = FREE }
 	}
 	immediate = {
 		for_each_scope_loop = {
@@ -821,12 +817,9 @@ country_event = {
 					carrier_mass_production = 1
 					carrier_damage_control = 1
 					air_fuel_storage = 1
-					damage_control_2 = 1
-					damage_control_3 = 1
-					fire_control_methods_2 = 1
 					battleship_aa_upgrade = 1
 					escort_carriers_ship = 1
-					
+
 					improved_light_shell = 1
 					improved_heavy_shell = 1
 					improved_dp_light_battery = 1
@@ -834,6 +827,16 @@ country_event = {
 				}
 				ai_get_navy_experience = yes
 				ai_get_mio_upgrade = yes
+			}
+		}
+		USA = {
+			if = {
+				limit = { is_ai = yes }
+				set_technology = {
+					large_shipyard = 1
+					port_construction_corps = 1
+					integrated_shipyard_complex = 1
+				}
 			}
 		}
 		set_global_flag = naval_tech_1941

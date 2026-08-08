@@ -1,6 +1,7 @@
 ideas = {
 	naval_academy_spirit = {
 		instilled_aggression_spirit = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea instilled_aggression_spirit" }
 			ledger = navy
 			available = { has_naval_academy = yes }
 			modifier = {
@@ -15,6 +16,7 @@ ideas = {
 			}
 		}
 		calculated_restraint_spirit = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea calculated_restraint_spirit" }
 			ledger = navy
 			available = { has_naval_academy = yes }
 			modifier = {
@@ -29,6 +31,7 @@ ideas = {
 			}
 		}
 		signals_training_spirit = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea signals_training_spirit" }
 			ledger = navy
 			available = { has_naval_academy = yes }
 			modifier = {
@@ -43,6 +46,7 @@ ideas = {
 			}
 		}
 		fleet_in_being_academy_spirit = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea fleet_in_being_academy_spirit" }
 			ledger = navy
 			available = {
 				AND = { 
@@ -69,6 +73,7 @@ ideas = {
 			}
 		}
 		trade_interdiction_academy_spirit = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea trade_interdiction_academy_spirit" }
 			ledger = navy
 			available = {
 				AND = { 
@@ -95,14 +100,9 @@ ideas = {
 			}
 		}
 		base_strike_academy_spirit = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea base_strike_academy_spirit" }
 			ledger = navy
-			available = {
-				AND = { 
-				has_naval_academy = yes
-				has_doctrine = new_base_strike
-				}
-			}
-
+			available = { has_doctrine = new_base_strike }
 			modifier = {
 				custom_modifier_tooltip = base_strike_academy_spirit_tt
 				trait_air_controller_xp_gain_factor = 0.2
@@ -121,8 +121,14 @@ ideas = {
 			}
 		}
 		best_of_the_best_naval_academy_spirit = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea best_of_the_best_naval_academy_spirit" }
 			ledger = navy
-			available = { has_naval_academy = yes }
+			available = {
+				has_subdoctrine_in_track = carriers
+				has_subdoctrine_in_track = capital_ships
+				has_subdoctrine_in_track = screens
+				has_subdoctrine_in_track = submarines
+			}
 			modifier = {
 				navy_leader_start_level = 2
 				navy_intel_to_others = -5.0
@@ -136,11 +142,26 @@ ideas = {
 				}
 			}
 		}
+		naval_academy_scholarships_spirit = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea naval_academy_scholarships_spirit" }
+			ledger = navy
+			allowed = { always = yes }
+			modifier = {
+				navy_leader_start_level = 1
+				navy_leader_cost_factor = -0.4
+				custom_modifier_tooltip = naval_academy_scholarships_spirit_tt
+			}
+			ai_will_do = { factor = 1 }
+		}
 		ship_to_shore_navy_spirit = {
+			on_add = { log = "[GetLogRoot]: add idea ship_to_shore_navy_spirit" }
 			ledger = navy
 			visible = { has_dlc = "No Compromise, No Surrender" }
-			available = { 
-				has_doctrine = naval_gunfire_support
+			available = {
+				OR = {
+					has_doctrine = new_base_strike
+					has_doctrine = naval_gunfire_support
+				}
 			}
 
 			modifier = {
@@ -319,6 +340,7 @@ ideas = {
 
 	navy_spirit = {
 		jeune_ecole_spirit = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea jeune_ecole_spirit" }
 			ledger = navy
 			available = {
 				has_doctrine = jeune_ecole
@@ -338,6 +360,7 @@ ideas = {
 			}
 		}
 		flexible_contracts_spirit = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea flexible_contracts_spirit" }
 			ledger = navy
 			modifier = {
 				naval_manufacturer_cost_factor = -0.4
@@ -351,6 +374,7 @@ ideas = {
 			}
 		}
 		integrated_designers_spirit = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea integrated_designers_spirit" }
 			ledger = navy
 			research_bonus = {
 				ship_modules_tech = 0.20
@@ -367,7 +391,8 @@ ideas = {
 			ledger = navy
 			available = { has_doctrine = new_base_strike }
 			modifier = {
-				experience_gain_navy_factor = 0.15
+				experience_gain_navy_factor = 0.1
+				naval_mastery_gain_factor = 0.05
 			}
 			ai_will_do = {
 				factor = 1
@@ -391,7 +416,91 @@ ideas = {
 				}
 			}
 		}
-		
+
+		fleet_in_being_navy_spirit = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea fleet_in_being_navy_spirit" }
+			ledger = navy
+			available = { has_doctrine = new_fleet_in_being }
+			research_bonus = {
+				bb_tech = 0.20
+				ca_tech = 0.20 
+			}
+			modifier = {
+				ship_hull_heavy_design_cost_factor = -0.6
+			}
+			ai_will_do = {
+				factor = 1.5
+			}
+		}
+		trade_interdiction_navy_spirit = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea trade_interdiction_navy_spirit" }
+			ledger = navy
+			available = { has_doctrine = new_convoy_raiding }
+			research_bonus = {
+				ss_tech = 0.20
+			}
+			modifier = {
+				ship_hull_submarine_design_cost_factor = -0.6
+			}
+			ai_will_do = {
+				factor = 1.5
+			}
+		}
+		base_strike_navy_spirit = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea base_strike_navy_spirit" }
+			ledger = navy
+			available = { has_doctrine = new_base_strike }
+			research_bonus = {
+				cv_tech = 0.20
+			}
+			modifier = {
+				ship_hull_carrier_design_cost_factor = -0.6
+			}
+			ai_will_do = { factor = 1.5 }
+		}
+		sea_lane_denial_navy_spirit = {
+			on_add = { log = "[GetLogRoot]: add idea sea_lane_denial_navy_spirit" }
+			ledger = navy
+			allowed = { has_dlc_ncns = yes }
+			available = {
+				OR = {
+					has_doctrine = new_convoy_raiding
+					has_doctrine = coastal_minelaying
+				}
+			}
+
+			research_bonus = {
+				naval_minelaying = 0.30
+			}
+			modifier = {
+				mines_planting_by_fleets_factor = 0.15
+			}
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					factor = 2
+					has_doctrine = coastal_minelaying
+				}
+			}
+		}
+		fleet_interoperability_navy_spirit = {
+			on_add = { log = "[GetLogRoot]: add idea fleet_interoperability_navy_spirit" }
+			ledger = navy
+			allowed = { has_dlc_ncns = yes }
+			research_bonus = {
+				naval_equipment = 0.05
+			}
+			modifier = {
+				naval_morale_factor = 0.20
+			}
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					factor = 2
+					has_doctrine = broad_naval_support
+				}
+			}
+		}		
         panama_standard = {
             ledger = navy
             visible = { original_tag = USA }
@@ -773,5 +882,131 @@ ideas = {
 				factor = 0
 			}
         }
+	}
+			scouting_force_navy_spirit = {
+			on_add = { log = "[GetLogRoot]: add idea scouting_force_navy_spirit" }
+			ledger = navy
+			allowed = { has_dlc_ncns = yes }
+			available = {
+				OR = {
+					has_doctrine = new_fleet_in_being
+					has_doctrine = escort_carrier_support
+				}
+			}
+			modifier = {
+				spotting_chance = 0.10
+				naval_detection = 0.10
+			}
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					factor = 2
+					has_doctrine = escort_carrier_support
+				}
+			}
+		}
+		fleet_defense_navy_spirit = {
+			on_add = { log = "[GetLogRoot]: add idea fleet_defense_navy_spirit" }
+			ledger = navy
+			allowed = { has_dlc_ncns = yes }
+			available = {
+				OR = {
+					has_doctrine = new_base_strike
+					has_doctrine = light_task_forces
+				}
+			}
+			modifier = {
+				screening_efficiency = 0.10
+				fighter_sortie_efficiency = 0.10
+			}
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					factor = 2
+					has_doctrine = light_task_forces
+					has_doctrine = anti_aircraft_cruisers
+				}
+			}
+		}
+
+		rapid_concentration_navy_spirit = {
+			on_add = { log = "[GetLogRoot]: add idea rapid_concentration_navy_spirit" }
+			ledger = navy
+			allowed = { has_dlc_ncns = yes }
+			available = {
+				OR = {
+					has_doctrine = new_base_strike
+					has_doctrine = battlecruiser_supremacy
+				}
+			}
+			modifier = {
+				naval_coordination = 0.15
+			}
+			ai_will_do = { factor = 1 }
+		}
+
+		aa_curtain_navy_spirit = {
+			on_add = { log = "[GetLogRoot]: add idea aa_curtain_navy_spirit" }
+			ledger = navy
+			allowed = { has_dlc_ncns = yes }
+			available = {
+				OR = {
+					has_doctrine = new_fleet_in_being
+					has_doctrine = battleship_antiair_screen
+				}
+			}
+			modifier = {
+				navy_anti_air_attack_factor = 0.15
+			}
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					factor = 2
+					OR = {
+						has_doctrine = anti_aircraft_cruisers
+						has_doctrine = battleship_antiair_screen
+					}
+				}
+			}
+		}
+		
+		selective_engagement_navy_spirit = {
+			on_add = { log = "[GetLogRoot]: add idea selective_engagement_navy_spirit" }
+			ledger = navy
+			allowed = { has_dlc_ncns = yes }
+			available = {
+				OR = {
+					has_doctrine = new_convoy_raiding
+					has_doctrine = patrol_boats
+				}
+			}
+			modifier = {
+				navy_visibility = -0.10
+			}
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					factor = 2
+					has_doctrine = patrol_boats
+				}
+			}
+		}
+
+		kantai_kessen_spirit = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea kantai_kessen_spirit" }
+			ledger = navy
+			allowed = { tag = JAP }
+			picture = CAN_shitty_navy
+			modifier = {
+				naval_critical_score_chance_factor = 0.25
+				naval_enemy_retreat_chance = -0.15
+				naval_retreat_chance = -0.15
+				naval_retreat_speed = -0.15
+				navy_capital_ship_attack_factor = 0.1
+			}
+			ai_will_do = {
+				factor = 500
+			}
+		}
 	}
 }

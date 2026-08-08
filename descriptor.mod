@@ -1,4 +1,4 @@
-version="1.0"
+version="v2.0"
 replace_path="common/units/names_ships"
 tags={
 	"Military"
