@@ -9,4 +9,6 @@ dependencies={
 	"KR Tech Extension"
 }
 name="KX Naval Rework Updated"
+picture="thumbnail.png"
 supported_version="1.19.*"
+remote_file_id="3780145947"
