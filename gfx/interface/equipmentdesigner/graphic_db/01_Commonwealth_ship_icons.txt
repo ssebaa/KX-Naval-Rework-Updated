@@ -635,6 +635,9 @@ ENG = {
 
     }
 
+}
+
+
 CAN = {
 
     vnr_ship_hull_light_1 = {
