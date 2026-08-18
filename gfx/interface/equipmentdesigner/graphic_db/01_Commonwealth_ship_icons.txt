@@ -46,6 +46,7 @@ ENG = {
     vnr_ship_hull_light_4 = {
         pool = {
             weight = 5
+            icons = {
                 GFX_ENG_vnr_ship_hull_light_4_medium
             }
         }
@@ -634,9 +635,7 @@ ENG = {
         }
 
     }
-
 }
-
 
 CAN = {
 

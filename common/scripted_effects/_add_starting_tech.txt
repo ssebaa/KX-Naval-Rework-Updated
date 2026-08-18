@@ -9,11 +9,6 @@ add_starting_techs = {
             large_cruiser_trend = 1
             early_cruiser_armor = 1
             basic_cruiser_armor = 1
-            incremental_armor_scheme = 1
-            mixed_armor_scheme = 1
-            all_or_nothing_armor_scheme = 1
-            basic_torpedo_defense = 1
-            improved_torpedo_defense = 1
             enhanced_horizontal_defense = 1
             basic_heavy_armor = 1
             dry_dock_expansion = 1
@@ -28,6 +23,8 @@ add_starting_techs = {
 			ship_hull_super_heavy = 1
 			panzerschiffe = 1
 			sonar = 1
+			magnetic_detonator = 1
+			electric_torpedo = 1
 
             basic_super_heavy_battery = 1
             experimental_super_heavy_battery = 1
@@ -45,11 +42,6 @@ add_starting_techs = {
             large_cruiser_trend = 1
             early_cruiser_armor = 1
             basic_cruiser_armor = 1
-            incremental_armor_scheme = 1
-            mixed_armor_scheme = 1
-            all_or_nothing_armor_scheme = 1
-            basic_torpedo_defense = 1
-            improved_torpedo_defense = 1
             enhanced_horizontal_defense = 1
             basic_heavy_armor = 1
             dry_dock_expansion = 1
@@ -64,6 +56,8 @@ add_starting_techs = {
 			ship_hull_super_heavy = 1
 			panzerschiffe = 1
 			sonar = 1
+			magnetic_detonator = 1
+			electric_torpedo = 1
 
             basic_super_heavy_battery = 1
             experimental_super_heavy_battery = 1
@@ -81,11 +75,6 @@ add_starting_techs = {
             large_cruiser_trend = 1
             early_cruiser_armor = 1
             basic_cruiser_armor = 1
-            incremental_armor_scheme = 1
-            mixed_armor_scheme = 1
-            all_or_nothing_armor_scheme = 1
-            basic_torpedo_defense = 1
-            improved_torpedo_defense = 1
             enhanced_horizontal_defense = 1
             basic_heavy_armor = 1
             dry_dock_expansion = 1
@@ -100,6 +89,8 @@ add_starting_techs = {
 			ship_hull_super_heavy = 1
 			panzerschiffe = 1
 			sonar = 1
+			magnetic_detonator = 1
+			electric_torpedo = 1
 
             basic_super_heavy_battery = 1
             experimental_super_heavy_battery = 1
@@ -120,11 +111,6 @@ add_starting_techs = {
             large_cruiser_trend = 1
             early_cruiser_armor = 1
             basic_cruiser_armor = 1
-            incremental_armor_scheme = 1
-            mixed_armor_scheme = 1
-            all_or_nothing_armor_scheme = 1
-            basic_torpedo_defense = 1
-            improved_torpedo_defense = 1
             enhanced_horizontal_defense = 1
             basic_heavy_armor = 1
             improved_conning_tower = 1
@@ -140,6 +126,7 @@ add_starting_techs = {
             cruiser_submarines = 1
 			ship_hull_super_heavy = 1
 			converted_super_heavy_carrier = 1
+			magnetic_detonator = 1
 
             basic_super_heavy_battery = 1
 			bb_conversion_carrier = 1
@@ -156,10 +143,6 @@ add_starting_techs = {
             large_cruiser_trend = 1
             early_cruiser_armor = 1
             basic_cruiser_armor = 1
-            incremental_armor_scheme = 1
-            mixed_armor_scheme = 1
-            basic_torpedo_defense = 1
-            improved_torpedo_defense = 1
             enhanced_horizontal_defense = 1
             basic_heavy_armor = 1
             dry_dock_expansion = 1
@@ -176,6 +159,8 @@ add_starting_techs = {
 			ship_hull_super_heavy = 1
 			panzerschiffe = 1
 			sonar = 1
+			magnetic_detonator = 1
+			oxygen_torpedo = 1
 
             basic_super_heavy_battery = 1
             experimental_super_heavy_battery = 1
@@ -195,11 +180,6 @@ add_starting_techs = {
             early_cruiser_armor = 1
             basic_cruiser_armor = 1
             cruiser_gun_upgrade = 1
-            incremental_armor_scheme = 1
-            mixed_armor_scheme = 1
-            all_or_nothing_armor_scheme = 1
-            basic_torpedo_defense = 1
-            improved_torpedo_defense = 1
             enhanced_horizontal_defense = 1
             basic_heavy_armor = 1
             dry_dock_expansion = 1
@@ -217,6 +197,7 @@ add_starting_techs = {
 			usa_8in_mk9 = 1
 			ship_hull_super_heavy = 1
 			panzerschiffe = 1
+			magnetic_detonator = 1
 
             basic_super_heavy_battery = 1
             experimental_super_heavy_battery = 1
@@ -235,11 +216,6 @@ add_starting_techs = {
             large_cruiser_trend = 1
             early_cruiser_armor = 1
             basic_cruiser_armor = 1
-            incremental_armor_scheme = 1
-            mixed_armor_scheme = 1
-            all_or_nothing_armor_scheme = 1
-            basic_torpedo_defense = 1
-            improved_torpedo_defense = 1
             enhanced_horizontal_defense = 1
             basic_heavy_armor = 1
             improved_conning_tower = 1
@@ -251,6 +227,7 @@ add_starting_techs = {
 			panzerschiffe = 1
             cruiser_submarines = 1
 			ship_hull_super_heavy = 1
+			magnetic_detonator = 1
 
             basic_super_heavy_battery = 1
 			bb_conversion_carrier = 1
@@ -267,11 +244,6 @@ add_starting_techs = {
             large_cruiser_trend = 1
             early_cruiser_armor = 1
             basic_cruiser_armor = 1
-            incremental_armor_scheme = 1
-            mixed_armor_scheme = 1
-            all_or_nothing_armor_scheme = 1
-            basic_torpedo_defense = 1
-            improved_torpedo_defense = 1
             enhanced_horizontal_defense = 1
             basic_heavy_armor = 1
             improved_conning_tower = 1
@@ -281,6 +253,7 @@ add_starting_techs = {
             basic_periscope = 1
             basic_ballast_tank = 1
             cruiser_submarines = 1
+			magnetic_detonator = 1
 
             basic_super_heavy_battery = 1
 			bb_conversion_carrier = 1
@@ -299,11 +272,6 @@ add_starting_techs = {
             early_cruiser_armor = 1
             basic_cruiser_armor = 1
             destroyer_cruiser_trend = 1
-            incremental_armor_scheme = 1
-            mixed_armor_scheme = 1
-            all_or_nothing_armor_scheme = 1
-            basic_torpedo_defense = 1
-            improved_torpedo_defense = 1
             basic_heavy_armor = 1
             improved_conning_tower = 1
             prototype_airplane_launcher = 1
@@ -316,6 +284,7 @@ add_starting_techs = {
 			high_speed_light_engine = 1
 			panzerschiffe = 1
 			enhanced_horizontal_defense = 1
+			magnetic_detonator = 1
 
             basic_super_heavy_battery = 1
 			bb_conversion_carrier = 1
@@ -333,9 +302,6 @@ add_starting_techs = {
             large_cruiser_trend = 1
             early_cruiser_armor = 1
             basic_cruiser_armor = 1
-            incremental_armor_scheme = 1
-            mixed_armor_scheme = 1
-            basic_torpedo_defense = 1
             enhanced_horizontal_defense = 1
             basic_heavy_armor = 1
             improved_conning_tower = 1
@@ -358,11 +324,6 @@ add_starting_techs = {
             large_cruiser_trend = 1
             early_cruiser_armor = 1
             basic_cruiser_armor = 1
-            incremental_armor_scheme = 1
-            mixed_armor_scheme = 1
-            basic_torpedo_defense = 1
-            improved_torpedo_defense = 1
-            enhanced_horizontal_defense = 1
             basic_heavy_armor = 1
             improved_conning_tower = 1
             prototype_airplane_launcher = 1
@@ -370,6 +331,7 @@ add_starting_techs = {
             improved_periscope = 1
             basic_ballast_tank = 1
             cruiser_submarines = 1
+			magnetic_detonator = 1
 
             basic_super_heavy_battery = 1
 			popup = no
@@ -386,8 +348,6 @@ add_starting_techs = {
             large_cruiser_trend = 1
             early_cruiser_armor = 1
             basic_cruiser_armor = 1
-            incremental_armor_scheme = 1
-            basic_torpedo_defense = 1
             basic_heavy_armor = 1
             prototype_airplane_launcher = 1
             basic_periscope = 1
@@ -395,6 +355,7 @@ add_starting_techs = {
             basic_ballast_tank = 1
             cruiser_submarines = 1
 			midget_submarines = 1
+			magnetic_detonator = 1
 			popup = no
         }
     }
@@ -407,10 +368,6 @@ add_starting_techs = {
             searchlight = 1
             large_cruiser_trend = 1
             early_cruiser_armor = 1
-            incremental_armor_scheme = 1
-            mixed_armor_scheme = 1
-            basic_torpedo_defense = 1
-            improved_torpedo_defense = 1
             enhanced_horizontal_defense = 1
             basic_heavy_armor = 1
             improved_conning_tower = 1
@@ -428,10 +385,6 @@ add_starting_techs = {
             searchlight = 1
             large_cruiser_trend = 1
             early_cruiser_armor = 1
-            incremental_armor_scheme = 1
-            mixed_armor_scheme = 1
-            basic_torpedo_defense = 1
-            improved_torpedo_defense = 1
             enhanced_horizontal_defense = 1
             basic_heavy_armor = 1
             improved_conning_tower = 1
@@ -446,6 +399,7 @@ add_starting_techs = {
 			interwar_ship_hull_cruiser = 1
 			interwar_ship_hull_light = 1
 			destroyer_cruiser_trend = 1
+			ita_pugliese_system = 1
 			popup = no
 		}
 	}
@@ -454,6 +408,7 @@ add_starting_techs = {
 			interwar_ship_hull_cruiser = 1
 			interwar_ship_hull_light = 1
 			panzerschiffe = 1
+			ita_pugliese_system = 1
 			popup = no
 		}
 	}
@@ -537,6 +492,7 @@ makeup_starting_techs = {
         set_technology = {
 			coastal_defense_ships = 1
 			early_cruiser_armor = 1
+			searchlight = 1
 			popup = no
 		}
     }
@@ -544,19 +500,18 @@ makeup_starting_techs = {
         limit = { has_tech = early_ship_hull_heavy }
         set_technology = {
 			pre_dreadnoughts = 1
-			basic_torpedo_defense = 1
 			harvey_steel = 1
-			incremental_armor_scheme = 1
 			popup = no
 		}
     }
 	every_country = {
 		limit = { has_tech = basic_ship_hull_heavy }
 		set_technology = {
-            mixed_armor_scheme = 1
 			basic_heavy_armor = 1
 			krupp_steel = 1
 			fuel_oil_boiler = 1
+			improved_conning_tower = 1
+            enhanced_horizontal_defense = 1
 			popup = no
 		}
 	}
@@ -588,6 +543,7 @@ makeup_starting_techs = {
             basic_periscope = 1
 			diesel_electric_transmission = 1
 			teardrop_hull = 1
+			improved_ship_torpedo_launcher = 1
 			popup = no
         }
     }
@@ -612,13 +568,7 @@ makeup_starting_techs = {
 			popup = no
 		}
 	}
-	every_country = {
-        set_technology = {
-            vnr_less_fuel_consumption = 1
-            popup = no
-        }
-    }
-	every_country = {
+    every_country = {
         limit = { has_tech = mtg_transport }
         set_technology = {
             naval_combat_support = 1
@@ -661,5 +611,50 @@ makeup_starting_techs = {
 				popup = no
 			}
 		}
+	}
+}
+
+special_project_workaround = {
+	USA = {
+		complete_special_project = sp:sp_super_heavy_guns
+	}
+	GER = {
+		complete_special_project = sp:sp_super_heavy_guns
+	}
+	JAP = {
+		complete_special_project = sp:sp_super_heavy_guns
+	}
+	ENG = {
+		complete_special_project = sp:sp_super_heavy_guns
+	}
+	CAN = {
+		complete_special_project = sp:sp_super_heavy_guns
+	}
+	FRA = {
+		complete_special_project = sp:sp_high_speed_light_engine
+	}
+	RUS = {
+		complete_special_project = sp:sp_high_speed_light_engine
+	}
+	
+	every_country = {
+		limit = { has_tech = basic_ship_hull_submarine }
+		complete_special_project = sp:sp_naval_fleet_submarine
+	}
+	every_country = {
+		limit = { has_tech = cruiser_submarines }
+		complete_special_project = sp:sp_naval_cruiser_submarine
+	}
+	every_country = {
+		limit = { has_tech = ship_hull_super_heavy }
+		complete_special_project = sp:sp_naval_super_heavy_battleship
+	}
+	every_country = {
+		limit = { has_tech = midget_submarines }
+		complete_special_project = sp:sp_naval_midget_submarine
+	}
+	every_country = {
+		limit = { has_tech = support_fleet_ncns }
+		complete_special_project = sp:sp_naval_support_ship
 	}
 }

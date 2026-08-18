@@ -1,0 +1,93 @@
+# must-haves
+CAN_escort_fleet_1 = {
+	required_taskforces = {
+		CAN_ConvoyEscort_1 = 2
+	}
+}
+CAN_patrol_fleet_1 = {
+	required_taskforces = {
+		CAN_PatrolReconForce_1 = 4
+	}
+}
+CAN_strike_fleet_1 = {
+	required_taskforces = {
+		CAN_StrikeForce_1 = 1
+	}
+}
+CAN_dominance_fleet_1 = {
+	required_taskforces = {
+		CAN_PatrolDominanceForce_1 = 1
+	}
+}
+CAN_raiding_fleet_1 = {
+	required_taskforces = {
+		CAN_ConvoyRaiding_1 = 3
+	}
+	optional_taskforces = {
+		CAN_ConvoyRaiding_1 = 2
+	}
+}
+
+# advance fleets
+CAN_patrol_fleet_2 = {
+	required_taskforces = {
+		CAN_PatrolReconForce_1 = 2
+	}
+}
+CAN_escort_fleet_2 = {
+	required_taskforces = {
+		CAN_ConvoyEscort_1 = 2
+	}
+}
+CAN_strike_fleet_2 = {
+	required_taskforces = {
+		CAN_StrikeForce_1 = 2
+	}
+}
+CAN_dominance_fleet_2 = {
+	required_taskforces = {
+		CAN_PatrolDominanceForce_1 = 2
+	}
+}
+CAN_raiding_fleet_2 = {
+	required_taskforces = {
+		CAN_ConvoyRaiding_1 = 4
+	}
+	optional_taskforces = {
+		CAN_ConvoyRaiding_1 = 2
+	}
+}
+
+# optional fleets
+CAN_patrol_fleet_3 = {
+	required_taskforces = {
+		CAN_PatrolReconForce_1 = 4
+	}
+	optional_taskforces = {
+		CAN_PatrolReconForce_1 = 2
+	}
+}
+CAN_escort_fleet_3 = {
+	required_taskforces = {
+		CAN_ConvoyEscort_1 = 2
+	}
+	optional_taskforces = {
+		CAN_ConvoyEscort_1 = 3
+	}
+}
+CAN_strike_fleet_3 = {
+	required_taskforces = {
+		CAN_StrikeForce_1 = 2
+	}
+	optional_taskforces = {
+		CAN_StrikeForce_1 = 2
+	}
+}
+CAN_dominance_fleet_3 = {
+	required_taskforces = {
+		CAN_PatrolDominanceForce_1 = 2
+	}
+	optional_taskforces = {
+		CAN_PatrolDominanceForce_1 = 2
+	}
+}

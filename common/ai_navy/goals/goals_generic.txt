@@ -106,4 +106,4 @@ generic_naval_blockade = {
 
     min_priority = 10
     max_priority = 20
-    }
+}

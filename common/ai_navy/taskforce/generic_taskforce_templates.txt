@@ -1,16 +1,22 @@
 StrikeForce_1 = {
 	allowed = {
 		NOT = {
-			original_tag = JAP
-			original_tag = ENG
-			original_tag = RUS
-			original_tag = USA 
-			original_tag = ACC
-			original_tag = WCA
-			original_tag = APG
-			original_tag = GER
-			original_tag = GEA
-			original_tag = FRA
+			OR = {
+				original_tag = JAP
+				original_tag = ENG
+				original_tag = RUS
+				original_tag = USA 
+				original_tag = ACC
+				original_tag = PSA
+				original_tag = WCA
+				original_tag = CSA
+				original_tag = APG
+				original_tag = TEX
+				original_tag = WCC
+				original_tag = GER
+				original_tag = GEA
+				original_tag = FRA
+			}
 		}		
 	}
 	ai_will_do = {
@@ -46,16 +52,22 @@ StrikeForce_1 = {
 PatrolReconForce_1 = {
 	allowed = {
 		NOT = {
-			original_tag = JAP
-			original_tag = ENG
-			original_tag = RUS
-			original_tag = USA 
-			original_tag = ACC
-			original_tag = WCA
-			original_tag = APG
-			original_tag = GER
-			original_tag = GEA
-			original_tag = FRA
+			OR = {
+				original_tag = JAP
+				original_tag = ENG
+				original_tag = RUS
+				original_tag = USA 
+				original_tag = ACC
+				original_tag = PSA
+				original_tag = WCA
+				original_tag = CSA
+				original_tag = APG
+				original_tag = TEX
+				original_tag = WCC
+				original_tag = GER
+				original_tag = GEA
+				original_tag = FRA
+			}
 		}		
 	}
 	ai_will_do = {
@@ -77,16 +89,22 @@ PatrolReconForce_1 = {
 PatrolDominanceForce_CA_1 = {
 	allowed = {
 		NOT = {
-			original_tag = JAP
-			original_tag = ENG
-			original_tag = RUS
-			original_tag = USA 
-			original_tag = ACC
-			original_tag = WCA
-			original_tag = APG
-			original_tag = GER
-			original_tag = GEA
-			original_tag = FRA
+			OR = {
+				original_tag = JAP
+				original_tag = ENG
+				original_tag = RUS
+				original_tag = USA 
+				original_tag = ACC
+				original_tag = PSA
+				original_tag = WCA
+				original_tag = CSA
+				original_tag = APG
+				original_tag = TEX
+				original_tag = WCC
+				original_tag = GER
+				original_tag = GEA
+				original_tag = FRA
+			}
 		}		
 	}
 	ai_will_do = {
@@ -119,16 +137,22 @@ PatrolDominanceForce_CA_1 = {
 ConvoyRaiding_1 = {
 	allowed = {
 		NOT = {
-			original_tag = JAP
-			original_tag = ENG
-			original_tag = RUS
-			original_tag = USA 
-			original_tag = ACC
-			original_tag = WCA
-			original_tag = APG
-			original_tag = GER
-			original_tag = GEA
-			original_tag = FRA
+			OR = {
+				original_tag = JAP
+				original_tag = ENG
+				original_tag = RUS
+				original_tag = USA 
+				original_tag = ACC
+				original_tag = PSA
+				original_tag = WCA
+				original_tag = CSA
+				original_tag = APG
+				original_tag = TEX
+				original_tag = WCC
+				original_tag = GER
+				original_tag = GEA
+				original_tag = FRA
+			}
 		}		
 	}
 	ai_will_do = {
@@ -152,16 +176,22 @@ ConvoyRaiding_1 = {
 ConvoySurfaceRaiding_1 = {
 	allowed = {
 		NOT = {
-			original_tag = JAP
-			original_tag = ENG
-			original_tag = RUS
-			original_tag = USA 
-			original_tag = ACC
-			original_tag = WCA
-			original_tag = APG
-			original_tag = GER
-			original_tag = GEA
-			original_tag = FRA
+			OR = {
+				original_tag = JAP
+				original_tag = ENG
+				original_tag = RUS
+				original_tag = USA 
+				original_tag = ACC
+				original_tag = PSA
+				original_tag = WCA
+				original_tag = CSA
+				original_tag = APG
+				original_tag = TEX
+				original_tag = WCC
+				original_tag = GER
+				original_tag = GEA
+				original_tag = FRA
+			}
 		}		
 	}
 	ai_will_do = {
@@ -190,12 +220,15 @@ ConvoyEscort_1 = {
 				original_tag = RUS
 				original_tag = USA 
 				original_tag = ACC
+				original_tag = PSA
 				original_tag = WCA
+				original_tag = CSA
 				original_tag = APG
+				original_tag = TEX
+				original_tag = WCC
 				original_tag = GER
 				original_tag = GEA
 				original_tag = FRA
-				original_tag = IMP
 			}
 		}		
 	}
