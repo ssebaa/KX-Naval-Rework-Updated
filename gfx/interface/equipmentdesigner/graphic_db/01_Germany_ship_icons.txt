@@ -220,26 +220,6 @@ GER = {
 
     }
 
-    vnr_ship_hull_cruiser_panzerschiff = {
-        pool = {
-            weight = 5
-            icons = {
-                GFX_GER_vnr_ship_hull_cruiser_panzerschiff_medium
-            }
-        }
-
-        pool = {
-            icons = {
-				GFX_GER_vnr_ship_hull_cruiser_1_medium
-				GFX_GER_vnr_ship_hull_cruiser_2_medium
-				GFX_GER_vnr_ship_hull_cruiser_1_capital_medium
-				GFX_GER_vnr_ship_hull_cruiser_2_capital_medium
-                "gfx/interface/technologies/Germany/GER_panzerschiff_Heinrich.png"
-            }
-        }
-
-    }
-
     vnr_ship_hull_pre_dreadnought = {
         pool = {
             weight = 5
@@ -799,26 +779,6 @@ GEA = {
 				GFX_GER_vnr_ship_hull_cruiser_4_medium
                 GFX_GER_vnr_ship_hull_cruiser_5_capital_medium
 				GFX_GER_vnr_ship_hull_cruiser_5_medium
-            }
-        }
-
-    }
-
-    vnr_ship_hull_cruiser_panzerschiff = {
-        pool = {
-            weight = 5
-            icons = {
-                GFX_GER_vnr_ship_hull_cruiser_panzerschiff_medium
-            }
-        }
-
-        pool = {
-            icons = {
-				GFX_GER_vnr_ship_hull_cruiser_1_medium
-				GFX_GER_vnr_ship_hull_cruiser_2_medium
-				GFX_GER_vnr_ship_hull_cruiser_1_capital_medium
-				GFX_GER_vnr_ship_hull_cruiser_2_capital_medium
-                "gfx/interface/technologies/Germany/GER_panzerschiff_Heinrich.png"
             }
         }
 
@@ -1388,26 +1348,6 @@ MAF = {
 
     }
 
-    vnr_ship_hull_cruiser_panzerschiff = {
-        pool = {
-            weight = 5
-            icons = {
-                GFX_GER_vnr_ship_hull_cruiser_panzerschiff_medium
-            }
-        }
-
-        pool = {
-            icons = {
-				GFX_GER_vnr_ship_hull_cruiser_1_medium
-				GFX_GER_vnr_ship_hull_cruiser_2_medium
-				GFX_GER_vnr_ship_hull_cruiser_1_capital_medium
-				GFX_GER_vnr_ship_hull_cruiser_2_capital_medium
-                "gfx/interface/technologies/Germany/GER_panzerschiff_Heinrich.png"
-            }
-        }
-
-    }
-
     vnr_ship_hull_pre_dreadnought = {
         pool = {
             weight = 5
@@ -1966,26 +1906,6 @@ BAY = {
 				GFX_GER_vnr_ship_hull_cruiser_4_medium
                 GFX_GER_vnr_ship_hull_cruiser_5_capital_medium
 				GFX_GER_vnr_ship_hull_cruiser_5_medium
-            }
-        }
-
-    }
-
-    vnr_ship_hull_cruiser_panzerschiff = {
-        pool = {
-            weight = 5
-            icons = {
-                GFX_GER_vnr_ship_hull_cruiser_panzerschiff_medium
-            }
-        }
-
-        pool = {
-            icons = {
-				GFX_GER_vnr_ship_hull_cruiser_1_medium
-				GFX_GER_vnr_ship_hull_cruiser_2_medium
-				GFX_GER_vnr_ship_hull_cruiser_1_capital_medium
-				GFX_GER_vnr_ship_hull_cruiser_2_capital_medium
-                "gfx/interface/technologies/Germany/GER_panzerschiff_Heinrich.png"
             }
         }
 
@@ -2554,26 +2474,6 @@ NGF = {
 
     }
 
-    vnr_ship_hull_cruiser_panzerschiff = {
-        pool = {
-            weight = 5
-            icons = {
-                GFX_GER_vnr_ship_hull_cruiser_panzerschiff_medium
-            }
-        }
-
-        pool = {
-            icons = {
-				GFX_GER_vnr_ship_hull_cruiser_1_medium
-				GFX_GER_vnr_ship_hull_cruiser_2_medium
-				GFX_GER_vnr_ship_hull_cruiser_1_capital_medium
-				GFX_GER_vnr_ship_hull_cruiser_2_capital_medium
-                "gfx/interface/technologies/Germany/GER_panzerschiff_Heinrich.png"
-            }
-        }
-
-    }
-
     vnr_ship_hull_pre_dreadnought = {
         pool = {
             weight = 5
@@ -3137,26 +3037,6 @@ RHI = {
 
     }
 
-    vnr_ship_hull_cruiser_panzerschiff = {
-        pool = {
-            weight = 5
-            icons = {
-                GFX_GER_vnr_ship_hull_cruiser_panzerschiff_medium
-            }
-        }
-
-        pool = {
-            icons = {
-				GFX_GER_vnr_ship_hull_cruiser_1_medium
-				GFX_GER_vnr_ship_hull_cruiser_2_medium
-				GFX_GER_vnr_ship_hull_cruiser_1_capital_medium
-				GFX_GER_vnr_ship_hull_cruiser_2_capital_medium
-                "gfx/interface/technologies/Germany/GER_panzerschiff_Heinrich.png"
-            }
-        }
-
-    }
-
     vnr_ship_hull_pre_dreadnought = {
         pool = {
             weight = 5
@@ -3715,26 +3595,6 @@ GRU = {
 				GFX_GER_vnr_ship_hull_cruiser_4_medium
                 GFX_GER_vnr_ship_hull_cruiser_5_capital_medium
 				GFX_GER_vnr_ship_hull_cruiser_5_medium
-            }
-        }
-
-    }
-
-    vnr_ship_hull_cruiser_panzerschiff = {
-        pool = {
-            weight = 5
-            icons = {
-                GFX_GER_vnr_ship_hull_cruiser_panzerschiff_medium
-            }
-        }
-
-        pool = {
-            icons = {
-				GFX_GER_vnr_ship_hull_cruiser_1_medium
-				GFX_GER_vnr_ship_hull_cruiser_2_medium
-				GFX_GER_vnr_ship_hull_cruiser_1_capital_medium
-				GFX_GER_vnr_ship_hull_cruiser_2_capital_medium
-                "gfx/interface/technologies/Germany/GER_panzerschiff_Heinrich.png"
             }
         }
 

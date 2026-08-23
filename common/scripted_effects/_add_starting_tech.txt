@@ -544,6 +544,7 @@ makeup_starting_techs = {
 			diesel_electric_transmission = 1
 			teardrop_hull = 1
 			improved_ship_torpedo_launcher = 1
+			acoustic_signature = 1
 			popup = no
         }
     }
@@ -617,18 +618,23 @@ makeup_starting_techs = {
 special_project_workaround = {
 	USA = {
 		complete_special_project = sp:sp_super_heavy_guns
+		complete_special_project = sp:sp_naval_super_heavy_battleship
 	}
 	GER = {
 		complete_special_project = sp:sp_super_heavy_guns
+		complete_special_project = sp:sp_naval_super_heavy_battleship
 	}
 	JAP = {
 		complete_special_project = sp:sp_super_heavy_guns
+		complete_special_project = sp:sp_naval_super_heavy_battleship
 	}
 	ENG = {
 		complete_special_project = sp:sp_super_heavy_guns
+		complete_special_project = sp:sp_naval_super_heavy_battleship
 	}
 	CAN = {
 		complete_special_project = sp:sp_super_heavy_guns
+		complete_special_project = sp:sp_naval_super_heavy_battleship
 	}
 	FRA = {
 		complete_special_project = sp:sp_high_speed_light_engine
@@ -646,15 +652,11 @@ special_project_workaround = {
 		complete_special_project = sp:sp_naval_cruiser_submarine
 	}
 	every_country = {
-		limit = { has_tech = ship_hull_super_heavy }
-		complete_special_project = sp:sp_naval_super_heavy_battleship
-	}
-	every_country = {
 		limit = { has_tech = midget_submarines }
 		complete_special_project = sp:sp_naval_midget_submarine
 	}
 	every_country = {
 		limit = { has_tech = support_fleet_ncns }
-		complete_special_project = sp:sp_naval_support_ship
+		complete_special_project = sp:sp_naval_support_ships
 	}
 }
