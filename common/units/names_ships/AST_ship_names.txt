@@ -6,7 +6,7 @@ AST_DD_HISTORICAL = {
 	for_countries = { AST }
 
 	can_use = {
-		AST = { is_in_faction_with = CAN }
+		has_socialist_government = no
 	}
 
 	type = ship
@@ -29,7 +29,8 @@ AST_GBR_DD_HISTORICAL = {
 	for_countries = { AST }
 
 	can_use = {
-		AST = { is_in_faction_with = CAN }
+		NOT = { country_exists = GBR }
+		has_socialist_government = no
 	}
 
 	type = ship
@@ -86,7 +87,7 @@ AST_DE_HISTORICAL = {
 	for_countries = { AST }
 
 	can_use = {
-		AST = { is_in_faction_with = CAN }
+		has_socialist_government = no
 	}
 
 	type = ship
@@ -112,7 +113,7 @@ AST_CL_HISTORICAL = {
 	for_countries = { AST }
 
 	can_use = {
-		AST = { is_in_faction_with = CAN }
+		has_socialist_government = no
 	}
 
 	type = ship
@@ -133,7 +134,8 @@ AST_GBR_CL_HISTORICAL = {
 	for_countries = { AST }
 
 	can_use = {
-		AST = { is_in_faction_with = CAN }
+		NOT = { country_exists = GBR }
+		has_socialist_government = no
 	}
 
 	type = ship
@@ -164,7 +166,7 @@ AST_CA_HISTORICAL = {
 	for_countries = { AST }
 
 	can_use = {
-		AST = { is_in_faction_with = CAN }
+		has_socialist_government = no
 	}
 
 	type = ship
@@ -185,7 +187,8 @@ AST_GBR_CA_HISTORICAL = {
 	for_countries = { AST }
 
 	can_use = {
-		AST = { is_in_faction_with = CAN }
+		NOT = { country_exists = GBR }
+		has_socialist_government = no
 	}
 
 	type = ship
@@ -211,7 +214,7 @@ AST_BB_HISTORICAL = {
 	for_countries = { AST }
 
 	can_use = {
-		AST = { is_in_faction_with = CAN }
+		has_socialist_government = no
 	}
 
 	type = ship
@@ -231,7 +234,8 @@ AST_GBR_BB_HISTORICAL = {
 	for_countries = { AST }
 
 	can_use = {
-		AST = { is_in_faction_with = CAN }
+		NOT = { country_exists = GBR }
+		has_socialist_government = no
 	}
 
 	type = ship
@@ -254,7 +258,7 @@ AST_BC_HISTORICAL = {
 	for_countries = { AST }
 
 	can_use = {
-		AST = { is_in_faction_with = CAN }
+		has_socialist_government = no
 	}
 
 	type = ship
@@ -274,7 +278,8 @@ AST_GBR_BC_HISTORICAL = {
 	for_countries = { AST }
 
 	can_use = {
-		AST = { is_in_faction_with = CAN }
+		NOT = { country_exists = GBR }
+		has_socialist_government = no
 	}
 
 	type = ship
@@ -296,7 +301,7 @@ AST_CV_HISTORICAL = {
 	for_countries = { AST }
 
 	can_use = {
-		AST = { is_in_faction_with = CAN }
+		has_socialist_government = no
 	}
 
 	type = ship
@@ -316,7 +321,8 @@ AST_GBR_CV_HISTORICAL = {
 	for_countries = { AST }
 
 	can_use = {
-		AST = { is_in_faction_with = CAN }
+		NOT = { country_exists = GBR }
+		has_socialist_government = no
 	}
 
 	type = ship
@@ -343,7 +349,7 @@ AST_SS_HTYPE_HISTORICAL = {
 	for_countries = { AST }
 
 	can_use = {
-		AST = { is_in_faction_with = CAN }
+		has_socialist_government = no
 	}
 
 	type = ship
@@ -365,7 +371,7 @@ AST_SS_LTYPE_HISTORICAL = {
 	for_countries = { AST }
 
 	can_use = {
-		AST = { is_in_faction_with = CAN }
+		has_socialist_government = no
 	}
 
 	type = ship
@@ -387,7 +393,7 @@ AST_SS_KTYPE_HISTORICAL = {
 	for_countries = { AST }
 
 	can_use = {
-		AST = { is_in_faction_with = CAN }
+		has_socialist_government = no
 	}
 
 	type = ship
@@ -409,7 +415,7 @@ AST_SS_HISTORICAL = {
 	for_countries = { AST }
 
 	can_use = {
-		AST = { is_in_faction_with = CAN }
+		has_socialist_government = no
 	}
 
 	type = ship
@@ -429,7 +435,8 @@ AST_GBR_SS_HISTORICAL = {
 	for_countries = { AST }
 
 	can_use = {
-		AST = { is_in_faction_with = CAN }
+		NOT = { country_exists = GBR }
+		has_socialist_government = no
 	}
 
 	type = ship
@@ -472,7 +479,7 @@ AST_STATES = {
 	for_countries = { AST }
 
 	can_use = {
-		AST = { is_in_faction_with = CAN }
+		has_socialist_government = no
 	}
 
 	type = ship
@@ -492,7 +499,7 @@ AST_CITIES = {
 	for_countries = { AST }
 
 	can_use = {
-		AST = { is_in_faction_with = CAN }
+		has_socialist_government = no
 	}
 
 	type = ship
@@ -512,7 +519,7 @@ AST_TRIBES = {
 	for_countries = { AST }
 
 	can_use = {
-		AST = { is_in_faction_with = CAN }
+		has_socialist_government = no
 	}
 
 	type = ship
@@ -534,7 +541,7 @@ AST_ANIMALS = {
 	for_countries = { AST }
 
 	can_use = {
-		AST = { is_in_faction_with = CAN }
+		has_socialist_government = no
 	}
 
 	type = ship
@@ -552,10 +559,6 @@ AST_FISH = {
 	name = NAME_THEME_FISH
 
 	for_countries = { AST }
-
-	can_use = {
-		AST = { is_in_faction_with = CAN }
-	}
 
 	type = ship
 
@@ -584,10 +587,6 @@ AST_INSPIRATIONAL = {
 
 	for_countries = { AST }
 
-	can_use = {
-		AST = { is_in_faction_with = CAN }
-	}
-
 	type = ship
 
 	prefix = "HMAS "
@@ -606,13 +605,13 @@ AST_DD_COMMUNIST = {
 	for_countries = { AST }
 
 	can_use = {
-		NOT = { AST = { is_in_faction_with = CAN } }
+		has_socialist_government = yes
 	}
 
 	type = ship
 	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
 
-	prefix = "ANS "
+	prefix = "RNS "
 	fallback_name = "Destroyer %s"
 
 	unique = {
@@ -629,13 +628,13 @@ AST_DE_COMMUNIST = {
 	for_countries = { AST }
 
 	can_use = {
-		NOT = { AST = { is_in_faction_with = CAN } }
+		has_socialist_government = yes
 	}
 
 	type = ship
 	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
 
-	prefix = "ANS "
+	prefix = "RNS "
 	fallback_name = "Corvette %s"
 
 	unique = {
@@ -655,13 +654,13 @@ AST_CL_COMMUNIST = {
 	for_countries = { AST }
 
 	can_use = {
-		NOT = { AST = { is_in_faction_with = CAN } }
+		has_socialist_government = yes
 	}
 
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser }
 
-	prefix = "ANS "
+	prefix = "RNS "
 	fallback_name = "Light Cruiser %s"
 
 	unique = {
@@ -677,13 +676,13 @@ AST_CA_COMMUNIST = {
 	for_countries = { AST }
 
 	can_use = {
-		NOT = { AST = { is_in_faction_with = CAN } }
+		has_socialist_government = yes
 	}
 
 	type = ship
 	ship_types = { ship_hull_cruiser heavy_cruiser }
 
-	prefix = "ANS "
+	prefix = "RNS "
 	fallback_name = "Heavy Cruiser %s"
 
 	unique = {
@@ -699,13 +698,13 @@ AST_BB_COMMUNIST = {
 	for_countries = { AST }
 
 	can_use = {
-		NOT = { AST = { is_in_faction_with = CAN } }
+		has_socialist_government = yes
 	}
 
 	type = ship
 	ship_types = { ship_hull_heavy battleship }
 
-	prefix = "ANS "
+	prefix = "RNS "
 	fallback_name = "Battleship %s"
 
 	unique = {
@@ -720,13 +719,13 @@ AST_BC_COMMUNIST = {
 	for_countries = { AST }
 
 	can_use = {
-		NOT = { AST = { is_in_faction_with = CAN } }
+		has_socialist_government = yes
 	}
 
 	type = ship
 	ship_types = { ship_hull_heavy battle_cruiser }
 
-	prefix = "ANS "
+	prefix = "RNS "
 	fallback_name = "Battlecruiser %s"
 
 	unique = {
@@ -741,13 +740,13 @@ AST_CV_COMMUNIST = {
 	for_countries = { AST }
 
 	can_use = {
-		NOT = { AST = { is_in_faction_with = CAN } }
+		has_socialist_government = yes
 	}
 
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
 
-	prefix = "ANS "
+	prefix = "RNS "
 	fallback_name = "Carrier %s"
 
 	unique = {
@@ -762,13 +761,13 @@ AST_SS_COMMUNIST = {
 	for_countries = { AST }
 
 	can_use = {
-		NOT = { AST = { is_in_faction_with = CAN } }
+		has_socialist_government = yes
 	}
 
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
 
-	prefix = "ANS "
+	prefix = "RNS "
 	fallback_name = "Submarine %s"
 
 	unique = {
@@ -777,18 +776,18 @@ AST_SS_COMMUNIST = {
 }
 
 ### THEME: AUSTRALIAN PROVINCES ###
-AST_STATES_COMMUNIST = {
+AST_STATES = {
 	name = NAME_THEME_STATES
 
 	for_countries = { AST }
 
 	can_use = {
-		NOT = { AST = { is_in_faction_with = CAN } }
+		has_socialist_government = yes
 	}
 
 	type = ship
 
-	prefix = "ANS "
+	prefix = "RNS "
 	unique = {
 		"New South Wales" "Queensland" "South Australia" "Tasmania" "Victoria" "Western Australia" "Capital Territory" "Jervis Bay"
 		"Northern Territory" "Ashmore Island" "Cartier Island" "Christmas Island" "Cocos Islands" "Coral Sea" "Heard Island" "McDonald Islands"
@@ -797,18 +796,18 @@ AST_STATES_COMMUNIST = {
 }
 
 ## THEME: AUSTRALIAN CITIES ###
-AST_CITIES_COMMUNIST = {
+AST_CITIES = {
 	name = NAME_THEME_CITIES
 
 	for_countries = { AST }
 
 	can_use = {
-		NOT = { AST = { is_in_faction_with = CAN } }
+		has_socialist_government = yes
 	}
 
 	type = ship
 
-	prefix = "ANS "
+	prefix = "RNS "
 	unique = {
 		"Sydney" "Melbourne" "Brisbane" "Perth" "Adelaide" "Canberra" "Hobart" "Darwin" "Gold Coast" "Newcastle" "Sunshine Coast" "Wollongong"
 		"Geelong" "Townsville" "Cairns" "Toowoomba" "Ballarat" "Bendigo" "Albury" "Mackay" "Rockhampton" "Launceston" "Bunbury" "Bundaberg"
@@ -817,18 +816,18 @@ AST_CITIES_COMMUNIST = {
 }
 
 ## THEME: TRIBES ###
-AST_TRIBES_COMMUNIST = {
+AST_TRIBES = {
 	name = NAME_THEME_TRIBES
 
 	for_countries = { AST }
 
 	can_use = {
-		NOT = { AST = { is_in_faction_with = CAN } }
+		has_socialist_government = yes
 	}
 
 	type = ship
 
-	prefix = "ANS "
+	prefix = "RNS "
 	unique = {
 		"Alyawarre" "Adnyamathanha" "Anmatjera" "Arunta" "Dieri" "Gunai" "Gurindji" "Guugu Yimithirr" "Jarrakan" "Kalkadoon" "Kaurna" "Kulin"
 		"Kunibidji" "Luritja" "Maralinga Tjarutja" "Murrinh-Patha" "Murrawarri" "Ngarrindjeri" "Narungga" "Ngunnawal" "Nyungar" "Spinefex"
@@ -845,12 +844,12 @@ AST_ANIMALS_COMMUNIST = {
 	for_countries = { AST }
 
 	can_use = {
-		NOT = { AST = { is_in_faction_with = CAN } }
+		has_socialist_government = yes
 	}
 
 	type = ship
 
-	prefix = "ANS "
+	prefix = "RNS "
 	unique = {
 		"Koala" "Crocodile" "Shark" "Echidna" "Hawk" "Dingo" "Platypus" "Kangaroo" "Emu" "Duong" "Jellyfish" "Goanna" "Whale" "Donkey" "Anteater" "Quoll"
 		"Wombat" "Cassowary" "Wedge-tail" "Red Back" "Huntsman" "Taipan"
@@ -864,12 +863,12 @@ AST_FISH_COMMUNIST = {
 	for_countries = { AST }
 
 	can_use = {
-		NOT = { AST = { is_in_faction_with = CAN } }
+		has_socialist_government = yes
 	}
 
 	type = ship
 
-	prefix = "ANS "
+	prefix = "RNS "
 
 	unique = {
 		"Albacore" "Amberjack" "Angler" "Apogon" "Aspro" "Archerfish" "Atule" "Barracuda" "Bass" "Bonita" "Barb" "Blackfish" "Bluefish" "Bonefish" "Bashaw" "Bluegill" "Bream" "Balao" "Billfish" "Bowfin" "Batfish" "Burrfish"
@@ -895,12 +894,12 @@ AST_INSPIRATIONAL_COMMUNIST = {
 	for_countries = { AST }
 
 	can_use = {
-		NOT = { AST = { is_in_faction_with = CAN } }
+		has_socialist_government = yes
 	}
 
 	type = ship
 
-	prefix = "ANS "
+	prefix = "RNS "
 
 	unique = {
 		"Triumphant" "Victorious" "Magnificent" "Imperial" "Fearless" "Majestic" "Ascendant" "Dominion" "Intrepid" "Supremacy" "Bounty" "Liberation" "Challenger" "Defiant" "Endeavour" "Valiant" "Dauntless"

@@ -3,7 +3,7 @@
 ENG_DD_ALPHABETICAL = {
 	name = NAME_ENG_DD_ALPHABETICAL
 
-	for_countries = { ENG }
+	for_countries = { ENG SCT WAL }
 
 	type = ship
 	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
@@ -84,7 +84,7 @@ ENG_DD_ALPHABETICAL = {
 ENG_DD_WEAPONS = {
 	name = NAME_ENG_WEAPONS
 
-	for_countries = { ENG }
+	for_countries = { ENG SCT WAL }
 
 	type = ship
 	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
@@ -103,7 +103,7 @@ ENG_DD_WEAPONS = {
 ENG_DE_COMMUNISM = {
 	name = NAME_THEME_HISTORICAL_DE
 
-	for_countries = { ENG }
+	for_countries = { ENG SCT WAL }
 
 	type = ship
 	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
@@ -137,7 +137,7 @@ ENG_DE_COMMUNISM = {
 ENG_CL_TOWN = {
 	name = NAME_ENG_CL_TOWN
 
-	for_countries = { ENG }
+	for_countries = { ENG SCT WAL }
 
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser }
@@ -168,7 +168,7 @@ ENG_CL_TOWN = {
 ENG_CL_MYTHOLOGY = {
 	name = NAME_ENG_CL_MYTH
 
-	for_countries = { ENG }
+	for_countries = { ENG SCT WAL }
 
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser }
@@ -205,7 +205,7 @@ ENG_CL_MYTHOLOGY = {
 ENG_COUNTIES = {
 	name = NAME_ENG_COUNTY
 
-	for_countries = { ENG }
+	for_countries = { ENG SCT WAL }
 
 	type = ship
 	ship_types = { ship_hull_cruiser heavy_cruiser }
@@ -238,7 +238,7 @@ ENG_COUNTIES = {
 ENG_MINELAYERS_COMMUNISM = {
 	name = NAME_THEME_HISTORICAL_MINELAYERS
 
-	for_countries = { ENG }
+	for_countries = { ENG SCT WAL }
 
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser ship_hull_light destroyer  ship_hull_civilian }
@@ -258,7 +258,7 @@ ENG_MINELAYERS_COMMUNISM = {
 ENG_BB_COMMUNISM = {
 	name = NAME_THEME_HISTORICAL_BB
 
-	for_countries = { ENG }
+	for_countries = { ENG SCT WAL }
 
 	type = ship
 	ship_types = { ship_hull_heavy battleship }
@@ -289,7 +289,7 @@ ENG_BB_COMMUNISM = {
 ENG_BC_COMMUNISM = {
 	name = NAME_ENG_BC_QUALITIES
 
-	for_countries = { ENG }
+	for_countries = { ENG SCT WAL }
 
 	type = ship
 	ship_types = { ship_hull_heavy battle_cruiser }
@@ -309,7 +309,7 @@ ENG_BC_COMMUNISM = {
 ENG_CV_QUALITIES = {
 	name = NAME_ENG_CV_QUALITIES
 
-	for_countries = { ENG }
+	for_countries = { ENG SCT WAL }
 
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
@@ -338,7 +338,7 @@ ENG_CV_QUALITIES = {
 ENG_CV_MYTHOLOGY = {
 	name = NAME_ENG_CV_MYTH
 
-	for_countries = { ENG }
+	for_countries = { ENG SCT WAL }
 
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
@@ -362,7 +362,7 @@ ENG_CV_MYTHOLOGY = {
 ENG_SS_COMMUNISM = {
 	name = NAME_THEME_HISTORICAL_SUBMARINES
 
-	for_countries = { ENG }
+	for_countries = { ENG SCT WAL }
 
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
@@ -401,7 +401,7 @@ ENG_SS_COMMUNISM = {
 ENG_ADMIRALS = {
 	name = NAME_THEME_ADMIRALS
 
-	for_countries = { ENG }
+	for_countries = { ENG SCT WAL }
 
 	type = ship
 	ship_types = { ship_hull_heavy battleship battle_cruiser carrier }
@@ -431,7 +431,7 @@ ENG_ADMIRALS = {
 ENG_BATTLES = {
 	name = NAME_THEME_BATTLES
 
-	for_countries = { ENG }
+	for_countries = { ENG SCT WAL }
 	ship_types = { ship_hull_light ship_hull_cruiser light_cruiser heavy_cruiser  ship_hull_civilian }
 
 	type = ship
@@ -450,7 +450,7 @@ ENG_BATTLES = {
 ENG_RIVERS = {
 	name = NAME_THEME_RIVERS
 
-	for_countries = { ENG }
+	for_countries = { ENG SCT WAL }
 
 	type = ship
 	ship_types = { ship_hull_light ship_hull_cruiser light_cruiser  ship_hull_civilian }
@@ -468,7 +468,7 @@ ENG_RIVERS = {
 ENG_REVOLUTIONARY_IDEALS = {
 	name = NAME_ENG_REVOLUTIONARY_IDEALS
 
-	for_countries = { ENG }
+	for_countries = { ENG SCT WAL }
 
 	type = ship
 
@@ -487,7 +487,7 @@ ENG_REVOLUTIONARY_IDEALS = {
 ENG_REVOLUTIONARIES = {
 	name = NAME_ENG_REVOLUTIONARIES
 
-	for_countries = { ENG }
+	for_countries = { ENG SCT WAL }
 
 	type = ship
 

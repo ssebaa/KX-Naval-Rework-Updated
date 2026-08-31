@@ -3,7 +3,7 @@
 SAF_DD_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 
-	for_countries = { SAF }
+	for_countries = { SAF SFR }
 
 	type = ship
 	ship_types = { ship_hull_light destroyer  ship_hull_civilian }
@@ -22,7 +22,7 @@ SAF_DD_HISTORICAL = {
 SAF_CL_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CL
 
-	for_countries = { SAF }
+	for_countries = { SAF SFR }
 
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser }
@@ -39,7 +39,7 @@ SAF_CL_HISTORICAL = {
 SAF_CA_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CA
 
-	for_countries = { SAF }
+	for_countries = { SAF SFR }
 
 	type = ship
 	ship_types = { ship_hull_cruiser heavy_cruiser }
@@ -56,7 +56,7 @@ SAF_CA_HISTORICAL = {
 SAF_BB_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BB
 
-	for_countries = { SAF }
+	for_countries = { SAF SFR }
 
 	type = ship
 	ship_types = { ship_hull_heavy battleship }
@@ -74,7 +74,7 @@ SAF_BB_HISTORICAL = {
 SAF_BC_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BC
 
-	for_countries = { SAF }
+	for_countries = { SAF SFR }
 
 	type = ship
 	ship_types = { ship_hull_heavy battle_cruiser }
@@ -92,7 +92,7 @@ SAF_BC_HISTORICAL = {
 SAF_CV_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CARRIERS
 
-	for_countries = { SAF }
+	for_countries = { SAF SFR }
 
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
@@ -110,7 +110,7 @@ SAF_CV_HISTORICAL = {
 SAF_SS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_SUBMARINES
 
-	for_countries = { SAF }
+	for_countries = { SAF SFR }
 
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
@@ -127,7 +127,7 @@ SAF_SS_HISTORICAL = {
 SAF_PROVINCES = {
 	name = NAME_THEME_PROVINCES
 
-	for_countries = { SAF }
+	for_countries = { SAF SFR }
 
 	type = ship
 
@@ -141,7 +141,7 @@ SAF_PROVINCES = {
 SAF_CITIES = {
 	name = NAME_THEME_CITIES
 
-	for_countries = { SAF }
+	for_countries = { SAF SFR }
 
 	type = ship
 
@@ -156,7 +156,7 @@ SAF_CITIES = {
 SAF_SS_NTYPE_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_NTYPE_SUBMARINES
 
-	for_countries = { SAF }
+	for_countries = { SAF SFR }
 
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
