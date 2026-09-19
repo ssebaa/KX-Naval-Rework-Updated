@@ -1,6 +1,6 @@
-ENG_StrikeForce_1 = {
+CAN_StrikeForce_1 = {
 	allowed = {
-		original_tag = ENG 
+		original_tag = CAN
 	}
 	ai_will_do = {
 		factor = 1
@@ -9,45 +9,7 @@ ENG_StrikeForce_1 = {
 	keep_updated = yes
 	min_composition = {
 		battleship = {
-			amount = 2
-		}
-		light_cruiser = {
-			amount = 4
-		}
-	}
-	
-	optimal_composition = {
-		carrier = {
-			amount = 4
-		}
-		battleship = {
-			amount = 6
-		}
-		light_cruiser = {
-			amount = 10
-		}
-		destroyer = {
-			amount = 18
-		}
-	}
-}
-
-ENG_StrikeForce_BC_1 = {
-	allowed = {
-		original_tag = ENG 
-	}
-	ai_will_do = {
-		factor = 0
-		modifier = {
-			add = 1
-			has_navy_size = { unit = battle_cruiser size > 1 }
-		}
-	}	
-	mission = { naval_strike }
-	keep_updated = yes
-	min_composition = {
-		battle_cruiser = {
-			amount = 2
+			amount = 1
 		}
 		destroyer = {
 			amount = 8
@@ -56,16 +18,19 @@ ENG_StrikeForce_BC_1 = {
 	
 	optimal_composition = {
 		carrier = {
+			amount = 2
+		}
+		SH_battleship = {
+			amount = 1
+		}
+		battleship = {
 			amount = 4
 		}
 		battle_cruiser = {
-			amount = 4
-		}
-		heavy_cruiser = {
 			amount = 2
 		}
 		light_cruiser = {
-			amount = 10
+			amount = 8
 		}
 		destroyer = {
 			amount = 18
@@ -73,9 +38,9 @@ ENG_StrikeForce_BC_1 = {
 	}
 }
 
-ENG_PatrolReconForce_1 = {
+CAN_PatrolReconForce_1 = {
 	allowed = {
-		original_tag = ENG
+		original_tag = CAN
 	}
 	ai_will_do = {
 		factor = 5
@@ -93,9 +58,9 @@ ENG_PatrolReconForce_1 = {
 	}
 }
 
-ENG_PatrolDominanceForce_1 = {
+CAN_PatrolDominanceForce_1 = {
 	allowed = {
-		original_tag = ENG
+		original_tag = CAN
 	}
 	ai_will_do = {
 		factor = 5
@@ -114,7 +79,7 @@ ENG_PatrolDominanceForce_1 = {
 	
 	optimal_composition = {
 		heavy_cruiser = {
-			amount = 4
+			amount = 2
 		}
 		light_cruiser = {
 			amount = 3
@@ -125,9 +90,9 @@ ENG_PatrolDominanceForce_1 = {
 	}
 }
 
-ENG_ConvoyRaiding_1 = {
+CAN_ConvoyRaiding_1 = {
 	allowed = {
-		original_tag = ENG
+		original_tag = CAN
 	}
 	ai_will_do = {
 		factor = 5
@@ -147,9 +112,9 @@ ENG_ConvoyRaiding_1 = {
 	}
 }
 
-ENG_ConvoyEscort_1 = {
+CAN_ConvoyEscort_1 = {
 	allowed = {
-		original_tag = ENG
+		original_tag = CAN
 	}
 	ai_will_do = {
 		factor = 5
