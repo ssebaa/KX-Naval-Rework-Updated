@@ -485,6 +485,26 @@ add_starting_techs = {
 	URG = {
 		set_technology = { early_ship_hull_cruiser = 1 popup = no }
 	}
+    TRM = {
+		set_technology = {
+            interwar_ship_hull_light = 1
+			interwar_ship_hull_cruiser = 1
+			interwar_ship_hull_heavy = 1
+            searchlight = 1
+            cruiser_propulsion_revolution = 1
+            early_cruiser_armor = 1
+            basic_cruiser_armor = 1
+            basic_heavy_armor = 1
+            popup = no 
+        }
+	}
+    MAG = {
+		set_technology = { 
+        interwar_ship_hull_light = 1
+        interwar_ship_hull_cruiser = 1
+        interwar_ship_hull_heavy = 1 
+        popup = no }
+	}
 }
 
 makeup_starting_techs = {
