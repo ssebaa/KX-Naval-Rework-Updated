@@ -1,0 +1,23 @@
+units = {
+	fleet = {
+		name = "Pirating Fleet"
+		naval_base = 13826
+		
+		task_force = {
+			name = "Pirate Flotilla"
+			location = 13826
+			ship = { name = "Francois L'Ollonais" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = FIU version_name = "Freedom Class" } } }
+			ship = { name = "Ching Shih" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = FIU version_name = "Freedom Class" } } }
+			ship = { name = "Richard Worley" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = FIU version_name = "Freedom Class" } } }
+			ship = { name = "William Dampier" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = FIU version_name = "Freedom Class" } } }
+			ship = { name = "Benjamin Hornigold" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = FIU version_name = "Freedom Class" } } }
+			ship = { name = "Anne Bonny" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = FIU version_name = "Freedom Class" } } }
+			ship = { name = "Thomas Tew" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = FIU version_name = "Freedom Class" } } }
+			ship = { name = "Paulsgrave Williams" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = FIU version_name = "Freedom Class" } } }
+			ship = { name = "Emanuel Wynn" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = FIU version_name = "Dalmatia Class" } } }
+			ship = { name = "Charles Vane" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = FIU version_name = "Dalmatia Class" } } }
+			ship = { name = "Alexander Selkirk" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = FIU version_name = "Dalmatia Class" } } }
+			ship = { name = "Claas Compaan" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = FIU version_name = "Dalmatia Class" } } }
+		}
+	}
+}

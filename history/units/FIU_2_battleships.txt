@@ -1,0 +1,14 @@
+units = {
+	fleet = {
+		name = "Pirating Fleet"
+		naval_base = 13826
+		
+		task_force = {
+			name = "Pirate Flotilla"
+			location = 13826
+			ship = { name = "Flying Horse" definition = battleship equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = FIU version_name = "Pest Class" } } }
+			ship = { name = "Mary Anne" definition = battleship equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = FIU version_name = "Pest Class" } } }
+			ship = { name = "Rover" definition = battle_cruiser equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = FIU version_name = "Pest Class" } } }
+		}
+	}
+}

@@ -1,0 +1,25 @@
+units = {
+	fleet = {
+		name = "Pirating Fleet"
+		naval_base = 13826
+		
+		task_force = {
+			name = "Pirate Flotilla"
+			location = 13826
+			ship = { name = "Henry Morgan" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = FIU version_name = "Freedom Class" } } }
+			ship = { name = "Henry Every" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = FIU version_name = "Freedom Class" } } }
+			ship = { name = "Benjamin Hornigold" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = FIU version_name = "Freedom Class" } } }
+			ship = { name = "Calico Jack" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = FIU version_name = "Freedom Class" } } }
+			ship = { name = "Peter Easton" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = FIU version_name = "Freedom Class" } } }
+			ship = { name = "Bartholomew Roberts" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = FIU version_name = "Freedom Class" } } }
+			ship = { name = "Adventure Galley" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FIU version_name = "Blackbeard Class" } } }
+			ship = { name = "Fancy " definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FIU version_name = "Blackbeard Class" } } }
+			ship = { name = "Golden Hind" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FIU version_name = "Blackbeard Class" } } }
+			ship = { name = "Revenge" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FIU version_name = "Blackbeard Class" } } }
+			ship = { name = "Charles" definition = destroyer equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = FIU version_name = "Blackbeard Class" } } }
+			ship = { name = "Delivery" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = FIU version_name = "Fiume Class" } } }
+			ship = { name = "Adventure Prize" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = FIU version_name = "Fiume Class" } } }
+			ship = { name = "Queen Anne's Revenge" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = FIU version_name = "Fiume Class" } } }
+		}
+	}
+}

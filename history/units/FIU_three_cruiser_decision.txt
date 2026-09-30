@@ -1,0 +1,14 @@
+units = {
+	fleet = {
+		name = "Pirating Fleet"
+		naval_base = 13826
+		
+		task_force = {
+			name = "Pirate Flotilla"
+			location = 13826
+			ship = { name = "Good Fortune" definition = heavy_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = FIU version_name = "Fiume Class" } } }
+			ship = { name = "Roebuck" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = FIU version_name = "Fiume Class" } } }
+			ship = { name = "Sea King" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = FIU version_name = "Fiume Class" } } }
+		}
+	}
+}
