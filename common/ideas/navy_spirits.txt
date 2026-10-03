@@ -270,7 +270,6 @@ ideas = {
             ledger = navy
             visible = {
                 OR = {
-                    original_tag = SOV
                     original_tag = RUS
                 }
                 has_global_flag = vnr_enabled
@@ -296,7 +295,6 @@ ideas = {
             ledger = navy
             visible = {
                 OR = {
-                    original_tag = SOV
                     original_tag = RUS
                 }
                 OR = {

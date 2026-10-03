@@ -1,0 +1,38 @@
+# must-haves
+GEA_patrol_fleet_1 = {
+	required_taskforces = {
+		GEA_PatrolReconForce_1 = 2
+	}
+	optional_taskforces = {
+		GEA_PatrolReconForce_1 = 2
+	}
+}
+GEA_escort_fleet_1 = {
+	required_taskforces = {
+		GEA_ConvoyEscort_1 = 2
+	}
+}
+GEA_carrier_fleet_1 = {
+	required_taskforces = {
+		GEA_StrikeForceCarrier_1 = 1
+	}
+	optional_taskforces = {
+		GEA_StrikeForceCarrier_1 = 1
+	}
+}
+GEA_dominance_fleet_1 = {
+	required_taskforces = {
+		GEA_PatrolDominanceForce_1 = 1
+	}
+	optional_taskforces = {
+		GEA_PatrolDominanceForce_1 = 1
+	}
+}
+GEA_raiding_fleet_1 = {
+	required_taskforces = {
+		GEA_ConvoyRaiding_1 = 4
+	}	
+	optional_taskforces = {
+		GEA_ConvoyRaiding_1 = 4
+	}
+}

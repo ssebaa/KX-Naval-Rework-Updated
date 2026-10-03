@@ -440,7 +440,7 @@ add_starting_techs = {
 			popup = no
 		}
 	}
-	SPA = {
+	SPR = {
 		set_technology = {
 			basic_ship_hull_light = 1
 			popup = no

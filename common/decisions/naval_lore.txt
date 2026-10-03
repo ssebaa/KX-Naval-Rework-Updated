@@ -24,7 +24,7 @@ Naval_lore_category = {
 				tag = CAN
 				tag = GBR
 				tag = AST
-				tag = WIF
+				tag = CAF
 			}
 		}
 		complete_effect = { set_country_flag = naval_lore_gui_show }
