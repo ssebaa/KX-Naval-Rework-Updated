@@ -13,5 +13,5 @@ dependencies={
 }
 name="KX Naval Rework Updated"
 picture="thumbnail.png"
-supported_version="1.19.*"
+supported_version="1.20.*"
 remote_file_id="3780145947"

@@ -58,7 +58,7 @@ defined_text = {
 				original_tag = GBR
 				original_tag = ENG
 				original_tag = AST
-				original_tag = WIF
+				original_tag = CAF
 			}
 		}
 		localization_key = ENG_naval_lore
@@ -112,7 +112,7 @@ defined_text = {
 		localization_key = GER_naval_lore
 	}
 	text = {
-		trigger = { original_tag = RUS }
+		trigger = { OR = { original_tag = RUS original_tag = TRM } }
 		localization_key = RUS_naval_lore
 	}
 }
@@ -158,7 +158,7 @@ defined_text = {
 				original_tag = GBR
 				original_tag = ENG
 				original_tag = AST
-				original_tag = WIF
+				original_tag = CAF
 			}
 		}
 		localization_key = naval_lore_title_1_eng
@@ -168,7 +168,7 @@ defined_text = {
 		localization_key = naval_lore_title_1_jap
 	}
 	text = {
-		trigger = { original_tag = RUS }
+		trigger = { OR = { original_tag = RUS original_tag = TRM } }
 		localization_key = naval_lore_title_1_rus
 	}
 	text = {
@@ -224,7 +224,7 @@ defined_text = {
 				original_tag = CAN
 				original_tag = GBR
 				original_tag = AST
-				original_tag = WIF
+				original_tag = CAF
 			}
 		}
 		localization_key = naval_lore_title_2_can
@@ -238,7 +238,7 @@ defined_text = {
 		localization_key = naval_lore_title_2_jap
 	}
 	text = {
-		trigger = { original_tag = RUS }
+		trigger = { OR = { original_tag = RUS original_tag = TRM } }
 		localization_key = naval_lore_title_2_rus
 	}
 	text = {
@@ -296,7 +296,7 @@ defined_text = {
 				original_tag = GBR
 				original_tag = ENG
 				original_tag = AST
-				original_tag = WIF
+				original_tag = CAF
 			}
 		}
 		localization_key = naval_lore_desc_1_eng
@@ -306,7 +306,7 @@ defined_text = {
 		localization_key = naval_lore_desc_1_jap
 	}
 	text = {
-		trigger = { original_tag = RUS }
+		trigger = { OR = { original_tag = RUS original_tag = TRM } }
 		localization_key = naval_lore_desc_1_rus
 	}
 	text = {
@@ -362,7 +362,7 @@ defined_text = {
 				original_tag = CAN
 				original_tag = GBR
 				original_tag = AST
-				original_tag = WIF
+				original_tag = CAF
 			}
 		}
 		localization_key = naval_lore_desc_2_can
@@ -376,7 +376,7 @@ defined_text = {
 		localization_key = naval_lore_desc_2_jap
 	}
 	text = {
-		trigger = { original_tag = RUS }
+		trigger = { OR = { original_tag = RUS original_tag = TRM } }
 		localization_key = naval_lore_desc_2_rus
 	}
 	text = {
@@ -434,7 +434,7 @@ defined_text = {
 				original_tag = GBR
 				original_tag = ENG
 				original_tag = AST
-				original_tag = WIF
+				original_tag = CAF
 			}
 		}
 		localization_key = naval_lore_option_1_eng
@@ -444,7 +444,7 @@ defined_text = {
 		localization_key = naval_lore_option_1_jap
 	}
 	text = {
-		trigger = { original_tag = RUS }
+		trigger = { OR = { original_tag = RUS original_tag = TRM } }
 		localization_key = naval_lore_option_1_rus
 	}
 	text = {
@@ -500,7 +500,7 @@ defined_text = {
 				original_tag = CAN
 				original_tag = GBR
 				original_tag = AST
-				original_tag = WIF
+				original_tag = CAF
 			}
 		}
 		localization_key = naval_lore_option_2_can
@@ -514,7 +514,7 @@ defined_text = {
 		localization_key = naval_lore_option_2_jap
 	}
 	text = {
-		trigger = { original_tag = RUS }
+		trigger = { OR = { original_tag = RUS original_tag = TRM } }
 		localization_key = naval_lore_option_2_rus
 	}
 	text = {
@@ -540,7 +540,7 @@ defined_text = {
 				original_tag = GBR
 				original_tag = ENG
 				original_tag = AST
-				original_tag = WIF
+				original_tag = CAF
 			}
 		}
 		localization_key = GFX_naval_lore_eng
@@ -582,7 +582,7 @@ defined_text = {
 		localization_key = GFX_naval_lore_ger
 	}
 	text = {
-		trigger = { original_tag = RUS }
+		trigger = { OR = { original_tag = RUS original_tag = TRM } }
 		localization_key = GFX_naval_lore_rus
 	}
 	text = {
@@ -612,7 +612,7 @@ defined_text = {
 				original_tag = SAF
 				original_tag = AST
 				original_tag = NZL
-				original_tag = RAJ
+				original_tag = DEH
 			}
 		}
 		localization_key = ship_designer_title_can
@@ -655,7 +655,7 @@ defined_text = {
 		localization_key = ship_designer_title_ger
 	}
 	text = {
-		trigger = { original_tag = RUS }
+		trigger = { OR = { original_tag = RUS original_tag = TRM } }
 		localization_key = ship_designer_title_rus
 	}
 	text = {

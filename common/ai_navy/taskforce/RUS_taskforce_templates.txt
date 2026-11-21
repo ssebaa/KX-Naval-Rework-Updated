@@ -1,6 +1,6 @@
 RUS_StrikeForce_1 = {
 	allowed = {
-		original_tag = RUS
+		OR = { original_tag = RUS original_tag = TRM }
 	}
 	ai_will_do = {
 		factor = 10
@@ -31,7 +31,7 @@ RUS_StrikeForce_1 = {
 
 RUS_StrikeForceCarrier_1 = {
 	allowed = {
-		original_tag = RUS
+		OR = { original_tag = RUS original_tag = TRM }
 	}
 	ai_will_do = {
 		factor = 0
@@ -72,7 +72,7 @@ RUS_StrikeForceCarrier_1 = {
 
 RUS_PatrolReconForce_1 = {
 	allowed = {
-		original_tag = RUS
+		OR = { original_tag = RUS original_tag = TRM }
 	}
 	ai_will_do = {
 		factor = 5
@@ -94,7 +94,7 @@ RUS_PatrolReconForce_1 = {
 
 RUS_PatrolDominanceForce_1 = {
 	allowed = {
-		original_tag = RUS
+		OR = { original_tag = RUS original_tag = TRM }
 	}
 	ai_will_do = {
 		factor = 3
@@ -126,7 +126,7 @@ RUS_PatrolDominanceForce_1 = {
 
 RUS_ConvoyRaiding_1 = {
 	allowed = {
-		original_tag = RUS
+		OR = { original_tag = RUS original_tag = TRM }
 	}
 	ai_will_do = {
 		factor = 1
@@ -148,7 +148,7 @@ RUS_ConvoyRaiding_1 = {
 
 RUS_ConvoyEscort_1 = {
 	allowed = {
-		original_tag = RUS
+		OR = { original_tag = RUS original_tag = TRM }
 	}
 	ai_will_do = {
 		factor = 5

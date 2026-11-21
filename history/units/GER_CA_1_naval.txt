@@ -6,7 +6,7 @@ units = {
 		task_force = {
 			name = "SMS Werra"
 			location = 6389 ###Change to proper province number
-			ship = { name = "SMS Werra" definition = carrier equipment = { vnr_ship_hull_carrier_2 = { amount = 1 owner = GER version_name = "Weser Class" } }
+			ship = { name = "SMS Werra" definition = carrier equipment = { vnr_ship_hull_carrier_1 = { amount = 1 owner = GER version_name = "Weser Class" } }
 			}
 		}
 	}

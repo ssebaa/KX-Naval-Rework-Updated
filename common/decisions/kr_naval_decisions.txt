@@ -52,7 +52,9 @@ CAN_returning_home_decisions = {
 		}
 
 		visible = {
-			is_monarchy = yes
+			# KXNR: KR's is_monarchy trigger does not exist in KX; KX has different methods :D
+			NOT = { has_country_flag = CAN_is_republic }
+			has_socialist_government = no
 			is_subject = no
 			NOT = { country_exists = GBR }
 			can_declare_war_on = FROM

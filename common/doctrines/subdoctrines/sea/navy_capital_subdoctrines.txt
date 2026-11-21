@@ -26,14 +26,15 @@ fast_battleship_primacy = {
                 original_tag = ENG
                 original_tag = JAP
                 original_tag = ITA
-                original_tag = SOV
+                original_tag = RUS
+                original_tag = TRM
             }
         }
     }
 
     # EFFECTS
 	strike_force_movement_org_loss = -0.1
-    naval_enemy_retreat_chance = -0.1
+    naval_coordination = 0.1
 
     rewards = {
         fast_squad = {
@@ -58,6 +59,7 @@ fast_battleship_primacy = {
 			modifier = {
                 positioning = 0.1
                 strike_force_movement_org_loss = -0.1
+                naval_heavy_gun_hit_chance_factor = 0.05
             }
         }
         blue_water_logistics = { #TODO see if these make sense
@@ -80,9 +82,9 @@ fast_battleship_primacy = {
         }
         grand_fleet = {
             modifier = {
-                naval_coordination = 0.1
                 positioning = 0.1
                 ships_at_battle_start = 0.1
+                naval_heavy_gun_hit_chance_factor = 0.1
             }
         }
         decisive_battle = {
@@ -198,12 +200,15 @@ battlecruiser_supremacy = {
         }
         ocean_raiding = {
             battle_cruiser = {
+                max_organisation = 5
                 convoy_raiding_coordination = 0.1
             }
             heavy_cruiser = {
+                max_organisation = 5
                 convoy_raiding_coordination = 0.1
             }
             medium_cruiser = {
+                max_organisation = 5
                 convoy_raiding_coordination = 0.1
             }
             modifier = {
@@ -280,14 +285,17 @@ battleship_antiair_screen = {
     		battleship = {
                 max_organisation = 5
                 anti_air_attack = 0.05
+                naval_heavy_gun_hit_chance_factor = 0.05
             }
             heavy_cruiser = {
                 max_organisation = 5
                 anti_air_attack = 0.05
+                naval_heavy_gun_hit_chance_factor = 0.05
             }
             medium_cruiser = {
                 max_organisation = 5
                 anti_air_attack = 0.05
+                naval_heavy_gun_hit_chance_factor = 0.05
             }
     	}
 
@@ -303,15 +311,15 @@ battleship_antiair_screen = {
     	broad_air_cover = {
     		battleship = {
     			max_organisation = 5
-    			surface_detection = 0.05
+    			surface_detection = 0.1
     		}
     		heavy_cruiser = {
     			max_organisation = 5
-    			surface_detection = 0.05
+    			surface_detection = 0.1
     		}
             medium_cruiser = {
     			max_organisation = 5
-    			surface_detection = 0.05
+    			surface_detection = 0.1
     		}
 
             modifier = {
@@ -319,9 +327,17 @@ battleship_antiair_screen = {
             }
     	}
         task_force_protector = {
+            battleship = {
+    			max_organisation = 5
+    		}
+    		heavy_cruiser = {
+    			max_organisation = 5
+    		}
+            medium_cruiser = {
+    			max_organisation = 5
+    		}
     		modifier = {
                 positioning = 0.1
-                naval_retreat_speed = 0.05
                 naval_torpedo_enemy_critical_chance_factor = -0.15
             }
     	}
@@ -329,17 +345,17 @@ battleship_antiair_screen = {
             battleship = {
                 max_organisation = 10
                 anti_air_attack = 0.1
-                surface_detection = 0.05
+                naval_heavy_gun_hit_chance_factor = 0.1
             }
             heavy_cruiser = {
                 max_organisation = 10
                 anti_air_attack = 0.1
-                surface_detection = 0.05
+                naval_heavy_gun_hit_chance_factor = 0.1
             }
             medium_cruiser = {
                 max_organisation = 10
                 anti_air_attack = 0.1
-                surface_detection = 0.05
+                naval_heavy_gun_hit_chance_factor = 0.1
             }
             modifier = {
                 naval_coordination = 0.1
@@ -362,9 +378,10 @@ armored_raiders = {
             has_doctrine = new_convoy_raiding
             has_doctrine = new_littoral_defense
         }
-        has_navy_size = {
-            archetype = ship_hull_heavy
-            size > 0
+        OR = {
+            has_navy_size = { unit = battleship size > 0 }
+            has_navy_size = { unit = battle_cruiser size > 0 }
+            has_navy_size = { unit = heavy_cruiser size > 0 }
         }
     }
 

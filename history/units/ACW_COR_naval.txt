@@ -1,4 +1,31 @@
-﻿instant_effect = {
-	inherit_technology = USA
-	USA_starting_naval_variants_kr = yes
+﻿# KX's ACW_COR_naval converted to naval rework hulls (source 00_kr_USA_naval).
+# Same fleets, bases and ship names as KX; designs taken from the matching KNR ships.
+units = {
+	fleet = {
+		name = "C.A.R. Fleet"
+		naval_base = 1843 #Miami
+
+		task_force = {
+			name = "C.A.R. Battle Fleet"
+			location = 1843 #Miami
+			ship = { name = "USS Indiana" definition = battleship equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "South Dakota Class" } } }
+			ship = { name = "USS Idaho" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pennsylvania/New Mexico Class" } } }
+			ship = { name = "USS Washington" definition = battleship equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "Colorado Class" } } }
+			ship = { name = "USS Cleveland" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = USA version_name = "Denver Class" } } }
+			ship = { name = "USS Chattanooga" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = USA version_name = "Denver Class" } } }
+			ship = { name = "USS Selfridge" definition = destroyer equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = USA version_name = "Porter/Somers Class" } } }
+			ship = { name = "USS McCormick" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
+			ship = { name = "USS Stringham" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
+			ship = { name = "USS Robinson" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
+			ship = { name = "USS Ringgold" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
+		}
+		task_force = {
+			name = "C.A.R. Submarine Fleet"
+			location = 1843 #Miami
+			ship = { name = "USS Barracuda" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "Barracuda/Dolphin/Cachalot Class" } } }
+			ship = { name = "USS Bass" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "Barracuda/Dolphin/Cachalot Class" } } }
+			ship = { name = "USS O1" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "O/R/S Class" } } }
+			ship = { name = "USS O2" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "O/R/S Class" } } }
+		}
+	}
 }

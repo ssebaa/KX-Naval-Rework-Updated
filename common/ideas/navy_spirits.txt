@@ -3,7 +3,6 @@ ideas = {
 		instilled_aggression_spirit = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea instilled_aggression_spirit" }
 			ledger = navy
-			available = { has_naval_academy = yes }
 			modifier = {
 				custom_modifier_tooltip = instilled_aggression_spirit_tt
 			}
@@ -18,7 +17,6 @@ ideas = {
 		calculated_restraint_spirit = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea calculated_restraint_spirit" }
 			ledger = navy
-			available = { has_naval_academy = yes }
 			modifier = {
 				custom_modifier_tooltip = calculated_restraint_spirit_tt
 			}
@@ -33,7 +31,6 @@ ideas = {
 		signals_training_spirit = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea signals_training_spirit" }
 			ledger = navy
-			available = { has_naval_academy = yes }
 			modifier = {
 				custom_modifier_tooltip = signals_training_spirit_tt
 			}
@@ -49,10 +46,7 @@ ideas = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea fleet_in_being_academy_spirit" }
 			ledger = navy
 			available = {
-				AND = { 
-				has_naval_academy = yes
 				has_doctrine = new_fleet_in_being
-				}
 			}
 
 			modifier = {
@@ -76,10 +70,7 @@ ideas = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea trade_interdiction_academy_spirit" }
 			ledger = navy
 			available = {
-				AND = { 
-				has_naval_academy = yes
 				has_doctrine = new_convoy_raiding
-				}
 			}
 
 			modifier = {
@@ -271,12 +262,13 @@ ideas = {
             visible = {
                 OR = {
                     original_tag = RUS
+                    original_tag = TRM
                 }
                 has_global_flag = vnr_enabled
-                has_government = communism
+                OR = { has_government = totalist has_government = syndicalist }
             }
 			cancel = {
-				NOT = { has_government = communism }
+				NOT = { OR = { has_government = totalist has_government = syndicalist } }
 			}
             modifier = {
                 trait_arctic_water_expert_xp_gain_factor = 0.25
@@ -296,10 +288,11 @@ ideas = {
             visible = {
                 OR = {
                     original_tag = RUS
+                    original_tag = TRM
                 }
                 OR = {
                     NOT = { has_global_flag = vnr_enabled }
-                    NOT = { has_government = communism }
+                    NOT = { OR = { has_government = totalist has_government = syndicalist } }
                 }
             }
             modifier = {
@@ -463,7 +456,6 @@ ideas = {
 			available = {
 				OR = {
 					has_doctrine = new_convoy_raiding
-					has_doctrine = coastal_minelaying
 				}
 			}
 
@@ -475,30 +467,8 @@ ideas = {
 			}
 			ai_will_do = {
 				factor = 1
-				modifier = {
-					factor = 2
-					has_doctrine = coastal_minelaying
-				}
 			}
 		}
-		fleet_interoperability_navy_spirit = {
-			on_add = { log = "[GetLogRoot]: add idea fleet_interoperability_navy_spirit" }
-			ledger = navy
-			allowed = { has_dlc_ncns = yes }
-			research_bonus = {
-				naval_equipment = 0.05
-			}
-			modifier = {
-				naval_morale_factor = 0.20
-			}
-			ai_will_do = {
-				factor = 1
-				modifier = {
-					factor = 2
-					has_doctrine = broad_naval_support
-				}
-			}
-		}		
         panama_standard = {
             ledger = navy
             visible = { original_tag = USA }
@@ -539,20 +509,6 @@ ideas = {
             modifier = {
                 critical_receive_chance = -0.1
                 naval_critical_effect_factor = -0.15
-            }
-            ai_will_do = {
-                factor = 1
-				modifier = {
-					factor = 0
-					NOT = { has_dlc = "No Step Back" }
-				}
-            }
-        }
-        advancing_base = {
-            ledger = navy
-            modifier = {
-                production_speed_naval_base_factor = 0.2
-                navy_fuel_consumption_factor = -0.1
             }
             ai_will_do = {
                 factor = 1
@@ -880,7 +836,6 @@ ideas = {
 				factor = 0
 			}
         }
-	}
 			scouting_force_navy_spirit = {
 			on_add = { log = "[GetLogRoot]: add idea scouting_force_navy_spirit" }
 			ledger = navy
@@ -888,7 +843,6 @@ ideas = {
 			available = {
 				OR = {
 					has_doctrine = new_fleet_in_being
-					has_doctrine = escort_carrier_support
 				}
 			}
 			modifier = {
@@ -897,10 +851,6 @@ ideas = {
 			}
 			ai_will_do = {
 				factor = 1
-				modifier = {
-					factor = 2
-					has_doctrine = escort_carrier_support
-				}
 			}
 		}
 		fleet_defense_navy_spirit = {
@@ -910,7 +860,6 @@ ideas = {
 			available = {
 				OR = {
 					has_doctrine = new_base_strike
-					has_doctrine = light_task_forces
 				}
 			}
 			modifier = {
@@ -919,11 +868,6 @@ ideas = {
 			}
 			ai_will_do = {
 				factor = 1
-				modifier = {
-					factor = 2
-					has_doctrine = light_task_forces
-					has_doctrine = anti_aircraft_cruisers
-				}
 			}
 		}
 
@@ -961,7 +905,6 @@ ideas = {
 				modifier = {
 					factor = 2
 					OR = {
-						has_doctrine = anti_aircraft_cruisers
 						has_doctrine = battleship_antiair_screen
 					}
 				}
@@ -975,7 +918,6 @@ ideas = {
 			available = {
 				OR = {
 					has_doctrine = new_convoy_raiding
-					has_doctrine = patrol_boats
 				}
 			}
 			modifier = {
@@ -983,10 +925,6 @@ ideas = {
 			}
 			ai_will_do = {
 				factor = 1
-				modifier = {
-					factor = 2
-					has_doctrine = patrol_boats
-				}
 			}
 		}
 

@@ -12,6 +12,10 @@ on_actions = {
 			TEX = { inherit_technology = USA }
 			NEE = { inherit_technology = USA }
 			HAW = { inherit_technology = USA }
+			COR = { inherit_technology = USA }
+			NYC = { inherit_technology = USA }
+			WCC = { inherit_technology = USA }
+			ARZ = { inherit_technology = USA }
 
 			# show welcome UI
 
@@ -31,6 +35,11 @@ on_actions = {
 			add_to_array = { global.vnr_naval_powers = CSA }
 			add_to_array = { global.vnr_naval_powers = TEX }
 			add_to_array = { global.vnr_naval_powers = CAL }
+			add_to_array = { global.vnr_naval_powers = COR }
+			add_to_array = { global.vnr_naval_powers = NYC }
+			add_to_array = { global.vnr_naval_powers = WCC }
+			add_to_array = { global.vnr_naval_powers = ARZ }
+			add_to_array = { global.vnr_naval_powers = NEE }
 			add_to_array = { global.vnr_naval_powers = ENG }
 			add_to_array = { global.vnr_naval_powers = FRA }
 			add_to_array = { global.vnr_naval_powers = GBR }

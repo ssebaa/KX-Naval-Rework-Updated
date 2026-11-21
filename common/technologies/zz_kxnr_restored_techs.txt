@@ -1,0 +1,15 @@
+# KNR removed this in its Nov 2026 update, but its own ship variants still use it lol, likely a bug
+# It's a temporary workaround until KNR addresses it.
+technologies = {
+    usa_8in_mk9 = {
+        research_cost = 1
+        start_year = 1930
+
+        allow = {
+            always = no
+        }
+        enable_equipment_modules = {
+            usa_8in_mk9_secondaries
+        }
+    }
+}

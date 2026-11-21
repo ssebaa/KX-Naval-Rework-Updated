@@ -1,0 +1,10 @@
+﻿l_english:
+ # Loc for modules KNR removed but its variants still use.
+ # See common/units/equipment/modules/zz_kxnr_restored_modules.txt.
+ usa_8in_mk9_secondaries: "8-in Mk.9"
+ usa_8in_mk9_secondaries_short: "Twin 8-in Mk.9 Group"
+ usa_8in_mk9_secondaries_desc: "A set of 8-in caliber secondaries installed on carriers."
+ ship_deck_space_converted: "Medium Open Hangar Space"
+ ship_deck_space_converted_short: "Medium Hangar (Open)"
+ ship_deck_space_converted_desc: "A medium open area inside the ship that allows the servicing and arming of wheeled airplanes. Adding further hangar space to a ship dramatically drives up cost."
+ EQ_MOD_CAT_ship_deck_space_converted_TITLE: "Extra Hangar Space"

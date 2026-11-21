@@ -1,1 +1,31 @@
-﻿
+﻿# KX's ACW_BBR_naval converted to naval rework hulls (source 00_kr_USA_naval).
+# Same fleets, bases and ship names as KX; designs taken from the matching KNR ships.
+units = {
+	fleet = {
+		name = "Pan-Afrikan Fleet"
+		naval_base = 7202 #Charleston
+
+		task_force = {
+			name = "Pan-Afrikan Battle Fleet"
+			location = 7202 #Charleston
+			ship = { name = "BRS Indiana" definition = battleship equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "South Dakota Class" } } }
+			ship = { name = "BRS Idaho" definition = battleship equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pennsylvania/New Mexico Class" } } }
+			ship = { name = "BRS Washington" definition = battleship equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "Colorado Class" } } }
+			ship = { name = "BRS Cleveland" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = USA version_name = "Denver Class" } } }
+			ship = { name = "BRS Chattanooga" definition = light_cruiser equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = USA version_name = "Denver Class" } } }
+			ship = { name = "BRS Selfridge" definition = destroyer equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = USA version_name = "Porter/Somers Class" } } }
+			ship = { name = "BRS McCormick" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
+			ship = { name = "BRS Stringham" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
+			ship = { name = "BRS Robinson" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
+			ship = { name = "BRS Ringgold" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell/Clemson/Wickes Class" } } }
+		}
+		task_force = {
+			name = "Pan-Afrikan Submarine Fleet"
+			location = 7202 #Charleston
+			ship = { name = "BRS Barracuda" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "Barracuda/Dolphin/Cachalot Class" } } }
+			ship = { name = "BRS Bass" definition = submarine equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "Barracuda/Dolphin/Cachalot Class" } } }
+			ship = { name = "BRS O1" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "O/R/S Class" } } }
+			ship = { name = "BRS O2" definition = submarine equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "O/R/S Class" } } }
+		}
+	}
+}

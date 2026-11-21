@@ -1,7 +1,7 @@
 naval_sub = {
 	category = naval
 	#available_for = {}
-	#blocked_for = {}
+	blocked_for = { ENG USA CAL CSA TEX COR NYC WCC ARZ NEE JAP GER GEA MAF RUS TRM FRA }
 	roles = { vnr_naval_submarine }
 	priority = { base = 80 }
 
@@ -217,8 +217,15 @@ naval_sub = {
 			sub_ship_periscope
 		}
 	}
+}
 
 
+
+naval_sub_expert = {
+	category = naval
+	available_for = { ENG JAP USA CAL CSA TEX COR NYC WCC ARZ NEE ITA FRA GER RUS TRM }
+	roles = { vnr_naval_submarine }
+	priority = { base = 90 }
 
 	# expert AI
 	submarine_1936_expert = {
@@ -228,7 +235,12 @@ naval_sub = {
 		priority = {
 			base = 20
 			modifier = { factor = 0.1 has_tech = improved_ship_hull_submarine }
-			modifier = { factor = 0 expert_ai_style = no }
+		}
+		enable = {
+			OR = {
+				has_game_rule = { rule = ai_ship_design_style option = EXPERT }
+				has_global_flag = manual_enable_expert_ship
+			}
 		}
 
 		
@@ -238,7 +250,7 @@ naval_sub = {
 
 			type = vnr_ship_hull_submarine_2
 			modules = {
-				fixed_ship_engine_slot = { upgrade > current any_of = { sub_ship_engine_2 sub_ship_engine_1 } }
+				fixed_ship_engine_slot = sub_ship_engine_2
 				fixed_ship_torpedo_slot = ship_torpedo_sub
 				fixed_ship_armor_slot = pressure_hull
 				fixed_ship_fire_control_system_slot = sub_fire_control_system
@@ -264,7 +276,12 @@ naval_sub = {
 		priority = {
 			base = 50
 			modifier = { factor = 0.1 has_tech = advanced_ship_hull_submarine }
-			modifier = { factor = 0 expert_ai_style = no }
+		}
+		enable = {
+			OR = {
+				has_game_rule = { rule = ai_ship_design_style option = EXPERT }
+				has_global_flag = manual_enable_expert_ship
+			}
 		}
 
 		
@@ -274,7 +291,7 @@ naval_sub = {
 
 			type = vnr_ship_hull_submarine_3
 			modules = {
-				fixed_ship_engine_slot = { upgrade > current any_of = { sub_ship_engine_3 sub_ship_engine_2 sub_ship_engine_1 } }
+				fixed_ship_engine_slot = sub_ship_engine_3
 				fixed_ship_torpedo_slot = ship_torpedo_sub
 				fixed_ship_armor_slot = pressure_hull
 				fixed_ship_fire_control_system_slot = sub_fire_control_system
@@ -301,7 +318,12 @@ naval_sub = {
 		priority = {
 			base = 100
 			modifier = { factor = 0.1 has_tech = modern_ship_hull_submarine }
-			modifier = { factor = 0 expert_ai_style = no }
+		}
+		enable = {
+			OR = {
+				has_game_rule = { rule = ai_ship_design_style option = EXPERT }
+				has_global_flag = manual_enable_expert_ship
+			}
 		}
 
 		
@@ -313,7 +335,7 @@ naval_sub = {
 			modules = {
 				mid_2_custom_slot = ship_sub_snorkel
 				mid_3_custom_slot = sub_ship_stealth
-				fixed_ship_engine_slot = { upgrade > current any_of = { sub_ship_engine_5 sub_ship_engine_4 sub_ship_engine_3 sub_ship_engine_2 sub_ship_engine_1 } }
+				fixed_ship_engine_slot = sub_ship_engine_4
 				fixed_ship_torpedo_slot = ship_torpedo_sub
 				fixed_ship_armor_slot = pressure_hull
 				fixed_ship_fire_control_system_slot = sub_fire_control_system
@@ -340,7 +362,12 @@ naval_sub = {
 		priority = {
 			base = 0
 			modifier = { add = 200 has_tech = modern_ship_hull_submarine }
-			modifier = { factor = 0 expert_ai_style = no }
+		}
+		enable = {
+			OR = {
+				has_game_rule = { rule = ai_ship_design_style option = EXPERT }
+				has_global_flag = manual_enable_expert_ship
+			}
 		}
 
 		
@@ -352,7 +379,7 @@ naval_sub = {
 			modules = {
 				mid_2_custom_slot = ship_sub_snorkel
 				mid_3_custom_slot = sub_ship_stealth
-				fixed_ship_engine_slot = { upgrade > current any_of = { sub_ship_engine_5 sub_ship_engine_4 sub_ship_engine_3 sub_ship_engine_2 sub_ship_engine_1 } }
+				fixed_ship_engine_slot = { any_of = { sub_ship_engine_5 sub_ship_engine_4 } }
 				fixed_ship_torpedo_slot = ship_torpedo_sub
 				fixed_ship_armor_slot = pressure_hull
 				fixed_ship_fire_control_system_slot = sub_fire_control_system
@@ -374,4 +401,3 @@ naval_sub = {
 		}
 	}
 }
-

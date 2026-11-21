@@ -1,4 +1,4 @@
-Naval_lore_category = {
+navy_rework_category = {
 	JAP_naval_lore = {
 		icon = GFX_vnr_jap_flag
 		allowed = { tag = JAP }
@@ -58,7 +58,7 @@ Naval_lore_category = {
 	RUS_naval_lore = {
 		icon = GFX_vnr_rus_flag
 		allowed = {
-			tag = RUS
+			OR = { tag = RUS tag = TRM }
 		}
 		complete_effect = { set_country_flag = naval_lore_gui_show }
 	}

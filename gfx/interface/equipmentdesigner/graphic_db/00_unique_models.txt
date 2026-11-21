@@ -385,7 +385,50 @@ ITA = {
     }
 }
 
-SOV = {
+RUS = {
+    ship_hull_light = {
+        pool = {
+            limit = {
+                has_dlc = "No Compromise, No Surrender"
+            }
+            weight = 10
+            models = {
+                PRC_destroyer_entity
+            }
+        }
+    }
+    ship_hull_cruiser = {
+        pool = {
+            weight = 10
+            sub_units = { heavy_cruiser medium_cruiser }
+            models = {
+                SOV_heavy_cruiser_entity
+            }
+        }
+    }
+    ship_hull_heavy = {
+        pool = {
+            weight = 10
+            models = {
+                SOV_battleship_entity
+            }
+        }
+    }
+    ship_hull_submarine = {
+        pool = {
+            limit = {
+                has_dlc = "No Compromise, No Surrender"
+            }
+            weight = 10
+            models = {
+                SOV_submarine_1_entity
+				SOV_submarine_entity
+            }
+        }
+    }
+}
+
+TRM = {
     ship_hull_light = {
         pool = {
             limit = {
